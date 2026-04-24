@@ -1,0 +1,190 @@
+{
+  "hero": {
+    "badge": "Niche rare · Rhône & Auvergne-Rhône-Alpes · Distanciel",
+    "h1_line1": "Comportementaliste",
+    "h1_em": "cheval",
+    "h1_line3": "en Rhône-Alpes",
+    "sub": "Votre cheval refuse, est craintif, devient dangereux ou la relation avec lui s'est dégradée ? L'éthologie équine permet de comprendre son langage profond et de reconstruire la confiance — sans méthodes coercitives, sans forcer.",
+    "rareBadge": "Service rare en France — l'une des seules comportementalistes 3 espèces",
+    "cta_rdv": "📅 Je prends RDV pour mon cheval",
+    "cta_approche": "L'approche éthologique →"
+  },
+  "nicheBanner": "🌟 Service rare — très peu de comportementalistes proposent les 3 espèces en France. Pour votre cheval, cette expertise est précieuse.",
+  "problems": {
+    "label": "Problèmes traités",
+    "title_line1": "Les problématiques",
+    "title_line2": "que je traite — cheval",
+    "intro": "Le cheval communique constamment — avec son corps, ses oreilles, ses postures. Apprendre à le lire est le premier pas vers une relation harmonieuse et sécurisée.",
+    "items": [
+      {
+        "icon": "😤",
+        "title": "Refus & résistances",
+        "text": "Refus de la ferrure, du vétérinaire, du licol, de monter dans le van — ces refus ont une histoire et une cause. On les comprend avant de vouloir les corriger."
+      },
+      {
+        "icon": "😟",
+        "title": "Peur & huppe",
+        "text": "Cheval hypervigilant, emballé, peureux, qui ne peut pas se déconnecter — la peur chronique chez le cheval est épuisante pour lui et dangereuse pour vous. Elle se travaille."
+      },
+      {
+        "icon": "⚡",
+        "title": "Agressivité",
+        "text": "Morsures à l'abord, ruades dans le box, menaces envers les humains ou les autres chevaux — l'agressivité équine signale toujours une souffrance ou un manque de sécurité ressenti."
+      },
+      {
+        "icon": "🤝",
+        "title": "Relation cavalier-cheval",
+        "text": "Perte de confiance mutuelle, cheval qui ne cherche pas le contact, relation froide ou conflictuelle — reconstruire ce lien est possible, quel que soit l'historique."
+      },
+      {
+        "icon": "😞",
+        "title": "Stéréotypies & vices",
+        "text": "Tic à l'appui, weaving, marcher en cercle, déforestation de la stalle — ces comportements indiquent un mal-être profond dont il faut traiter la cause, pas le symptôme."
+      },
+      {
+        "icon": "🌱",
+        "title": "Bien-être & intégration",
+        "text": "Nouveau cheval en écurie, socialisation difficile, problèmes liés aux conditions de vie (stabulation, isolement) — l'éthologie équine permet d'optimiser l'environnement pour le bien-être."
+      }
+    ]
+  },
+  "approche": {
+    "label": "L'éthologie équine",
+    "title_line1": "L'approche éthologique équine :",
+    "title_line2": "comprendre avant d'agir",
+    "p1": "L'éthologie équine étudie le comportement du cheval dans son environnement naturel — ses modes de communication, sa structure sociale, ses besoins fondamentaux — pour mieux comprendre ce qu'il exprime dans son quotidien avec l'humain.",
+    "quote": "« Le cheval ne manipule pas, il ne \"fait pas exprès\". Il réagit à son histoire, à son environnement, à ce qu'il ressent. Mon rôle est de vous aider à le comprendre — et à répondre à ses besoins plutôt qu'à contraindre son expression. »",
+    "pilliers": [
+      { "icon": "🌿", "title": "Sans coercition", "text": "Aucune méthode de force ou de dominance. Respect total du cheval." },
+      { "icon": "🔬", "title": "Basée sur les sciences", "text": "Éthologie, étiologie, learning theory appliquées à l'équin." },
+      { "icon": "🤝", "title": "Centrée sur le binôme", "text": "Je travaille avec vous ET votre cheval. La relation est au cœur." }
+    ],
+    "public_title": "Qui est concerné ?",
+    "public": [
+      "🏇 Cavaliers de loisir avec un cheval difficile",
+      "🌱 Propriétaires d'un premier cheval",
+      "🏠 Gérants d'écuries ou de centres équestres",
+      "🌿 Propriétaires en retraite / pré",
+      "💊 En complément d'un suivi vétérinaire"
+    ]
+  },
+  "zone": {
+    "label": "Zone d'intervention",
+    "title_line1": "Rhône & Auvergne-Rhône-Alpes",
+    "title_line2": "+ distanciel monde francophone",
+    "presentiel": {
+      "icon": "🏔️",
+      "title": "Présentiel — Rhône-Alpes",
+      "text": "Déplacement dans le Rhône (69) et les départements limitrophes (Ain, Isère, Loire, Saône-et-Loire). Je viens à l'écurie ou au pré — là où se trouvent votre cheval et son contexte de vie."
+    },
+    "distanciel": {
+      "icon": "💻",
+      "title": "Distanciel — Partout en France",
+      "text": "Consultation par visio pour toute la France et la francophonie. Vous filmez votre cheval et son environnement. Idéal pour un premier bilan ou un suivi de protocole."
+    }
+  },
+  "tarifs": {
+    "label": "Tarifs",
+    "title": "Tarifs & modalités — cheval",
+    "intro": "La consultation équine est un service premium et rare. Transparence totale, devis sur demande.",
+    "items": [
+      {
+        "title": "Consultation distanciel",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h · Visio",
+        "featured": false,
+        "includes": [
+          "Bilan comportemental complet",
+          "Protocole personnalisé",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      },
+      {
+        "title": "Consultation présentiel",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h+ · À l'écurie Rhône-Alpes",
+        "featured": true,
+        "includes": [
+          "Observation du cheval en contexte",
+          "Analyse de l'environnement & conditions",
+          "Bilan comportemental complet",
+          "Plan d'action sur-mesure",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title_line1": "Ce qu'ils disent",
+    "title_line2": "après leur consultation cheval",
+    "items": [
+      {
+        "featured": true,
+        "text": "Je cherchais quelqu'un qui comprenne vraiment l'éthologie équine. CANIFELINK, c'est une approche totalement différente de l'équitation classique. Ma jument est transformée.",
+        "author": "Aurélie F.",
+        "loc": "Ain · Distanciel"
+      },
+      {
+        "featured": false,
+        "text": "Mon hongre refusait le maréchal-ferrant depuis 3 ans. En deux séances de travail progressif avec le protocole, on est arrivé à la ferrure sans incident. Honnêtement je n'y croyais plus.",
+        "author": "Guillaume P.",
+        "loc": "Isère · Présentiel"
+      },
+      {
+        "featured": false,
+        "text": "Mon cheval avait des stéréotypies sévères que personne ne prenait au sérieux. CANIFELINK a travaillé sur les causes profondes et les conditions de vie. 4 mois plus tard, les comportements ont diminué de 80%.",
+        "author": "Camille R.",
+        "loc": "Loire · Présentiel"
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ équine",
+    "title_line1": "Vos questions sur",
+    "title_line2": "le comportementaliste cheval",
+    "items": [
+      {
+        "q": "Quelle différence avec un moniteur d'équitation ou un dresseur ?",
+        "a": "Le moniteur enseigne des techniques d'équitation. Le comportementaliste équin analyse les causes comportementales des problèmes observés — peur, douleur, mauvaise association, manque de sécurité ressenti. Mon approche est éthologique et non coercitive : je cherche à comprendre le cheval pour mieux lui répondre."
+      },
+      {
+        "q": "Faut-il avoir éliminé une cause médicale avant ?",
+        "a": "Oui, absolument. Un cheval qui refuse ou devient agressif peut avoir une cause médicale (douleur, boiterie, problème de dos, inconfort du matériel). Je vous demanderai toujours si votre vétérinaire et un ostéopathe équin ont été consultés récemment. Je travaille en complémentarité."
+      },
+      {
+        "q": "Est-ce que vous travaillez avec tous les types de chevaux ?",
+        "a": "Oui — chevaux de sport, de loisir, de trait, poneys, ânes et mulets en pension ou au pré. Mon approche s'adapte à chaque animal et à chaque contexte de vie. Je travaille aussi bien avec des propriétaires que des gérants d'écuries ou des centres équestres."
+      },
+      {
+        "q": "Les stéréotypies peuvent-elles vraiment s'améliorer ?",
+        "a": "Les stéréotypies établies ne « disparaissent » jamais totalement, mais leur fréquence peut diminuer significativement en améliorant les conditions de vie et en traitant les causes de stress. Un cheval qui exprime moins de stéréotypies souffre moins — et c'est l'objectif visé."
+      },
+      {
+        "q": "La consultation en visio est-elle adaptée pour le cheval ?",
+        "a": "Oui, en particulier pour les bilans comportementaux, les suivis de protocole et les situations où le déplacement n'est pas possible. Vous filmez votre cheval dans son environnement quotidien, à l'écurie, au pré, pendant les manipulations. Je guide votre observation en temps réel."
+      }
+    ],
+    "ctaTitle": "Service rare, résultats réels",
+    "ctaText": "L'une des seules comportementalistes 3 espèces en France — réponse sous 24h pour votre cheval.",
+    "ctaList": [
+      "Éthologie équine certifiée",
+      "Sans coercition ni force",
+      "Suivi 30 jours inclus",
+      "Compte-rendu écrit fourni",
+      "Rhône-Alpes + distanciel"
+    ],
+    "ctaBtn": "📅 Je prends RDV pour mon cheval",
+    "ctaWhatsapp": "💬 WhatsApp"
+  },
+  "ctaFinal": {
+    "title_line1": "Votre cheval mérite",
+    "title_line2": "d'être entendu",
+    "text": "Comportementaliste équine certifiée à Lyon (Rhône) et en visio — l'une des rares en France à maîtriser les 3 espèces.",
+    "btn_rdv": "📅 Je prends rendez-vous",
+    "btn_about": "Découvrir mon parcours →",
+    "guarantee": "✓ Éthologie équine · Sans coercition · Suivi 30 jours inclus"
+  }
+}

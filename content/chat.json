@@ -1,0 +1,217 @@
+{
+  "hero": {
+    "badge": "Présentiel Rhône · Distanciel France et francophonie",
+    "h1_line1": "Comportementaliste",
+    "h1_em": "chat",
+    "h1_line3": "à Lyon & en visio",
+    "sub": "Votre chat urine partout, griffe, se bat ou s'est isolé ? Il ne fait pas de bêtises — il communique. Je vous aide à déchiffrer son langage félin et à retrouver l'harmonie à la maison, souvent plus facilement en visio.",
+    "proof": "4,9/5 · Spécialiste félin",
+    "cta_rdv": "📅 Je prends RDV pour mon chat",
+    "cta_dist": "Pourquoi la visio pour le chat →"
+  },
+  "problems": {
+    "label": "Problèmes traités",
+    "title_line1": "Les problématiques",
+    "title_line2": "que je traite — chat",
+    "intro": "Le chat est un animal complexe, souvent incompris. Chaque comportement « problématique » est une tentative de communication. Apprenons à l'écouter.",
+    "items": [
+      {
+        "icon": "💧",
+        "title": "Éliminations hors litière",
+        "text": "Urine sur le canapé, les vêtements ou le lit — c'est la problématique féline la plus fréquente. Elle a toujours une cause : stress, douleur, territoire, litière inadaptée. On la trouve."
+      },
+      {
+        "icon": "🪑",
+        "title": "Griffades excessives",
+        "text": "Canapé, moquette, parquet — les griffades sont un besoin naturel. Mais quand elles deviennent un problème, c'est souvent que l'environnement ne répond pas aux besoins du chat."
+      },
+      {
+        "icon": "😨",
+        "title": "Peur & isolement",
+        "text": "Chat inaccessible, caché en permanence, réactif au moindre bruit — la peur féline chronique est traitée via des protocoles de désensibilisation progressifs et respectueux."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Cohabitation difficile",
+        "text": "Introduction d'un nouveau chat ou d'un chien qui tourne mal, bagarres, compétition pour les ressources — je vous accompagne dans l'introduction et la gestion des conflits félins."
+      },
+      {
+        "icon": "🤐",
+        "title": "Agressivité envers les humains",
+        "text": "Griffures lors des caresses, morsures sans prévenir, redirections d'agression — le chat qui « griffe sans raison » envoie des signaux que nous n'avons pas appris à lire. Apprenons ensemble."
+      },
+      {
+        "icon": "⌚",
+        "title": "Comportements nocturnes",
+        "text": "Miaulements la nuit, hyperactivité nocturne, réveils répétés — ces troubles ont souvent une origine comportementale ou médicale. Un bilan permet d'en identifier la cause précise."
+      }
+    ]
+  },
+  "distanciel": {
+    "label": "Consultation visio",
+    "title_line1": "Pourquoi la visio",
+    "title_line2": "est souvent préférable",
+    "title_line3": "pour le chat",
+    "intro": "Le chat est un animal territorial très sensible aux modifications de son environnement. Une visite à domicile peut le stresser davantage.",
+    "items": [
+      {
+        "icon": "🏠",
+        "title": "Dans son environnement habituel",
+        "text": "Votre chat est chez lui, dans son territoire sécurisé. Pas de stress lié à la présence d'un inconnu. Il se comporte normalement, ce qui me permet d'observer des comportements authentiques."
+      },
+      {
+        "icon": "📍",
+        "title": "Observation de l'environnement réel",
+        "text": "Je vous guide pour filmer les zones clés (litières, griffoirs, zones de repos, zones de tension). L'analyse de l'espace de vie est souvent révélatrice des causes comportementales."
+      },
+      {
+        "icon": "⚡",
+        "title": "Résultats dans 48h — cas réel",
+        "text": "« Mon chat urinait partout depuis des mois. En visio, on a identifié la cause en 45 min. Deux semaines plus tard, problème résolu. » — Claire D., Bordeaux"
+      },
+      {
+        "icon": "🇫🇷",
+        "title": "Partout en France & francophonie",
+        "text": "France, Belgique, Suisse, Québec — votre localisation n'est jamais un obstacle. De nombreux clients sont soulagés de ne pas avoir à transporter leur chat dans une cage chez un professionnel."
+      }
+    ]
+  },
+  "howSteps": {
+    "label": "Déroulement",
+    "title_line1": "Votre consultation",
+    "title_line2": "féline en 4 étapes",
+    "intro": "Présentiel à domicile dans le Rhône ou distanciel par visio — adaptée à votre chat et à votre situation.",
+    "items": [
+      {
+        "num": "1",
+        "title": "Contact & échange",
+        "desc": "Décrivez la situation. Je vous conseille dès ce premier échange sur le mode de consultation le mieux adapté à votre chat (visio souvent recommandée)."
+      },
+      {
+        "num": "2",
+        "title": "Bilan félin complet",
+        "desc": "1h30 à 2h d'échanges approfondis. Anamnèse complète : historique, environnement, interactions, ressources, alimentation. Rien n'est laissé de côté."
+      },
+      {
+        "num": "3",
+        "title": "Plan d'action sur-mesure",
+        "desc": "Protocole personnalisé (modification environnementale, enrichissement, protocoles de désensibilisation) + compte-rendu écrit sous 48h."
+      },
+      {
+        "num": "4",
+        "title": "Suivi 30 jours inclus",
+        "desc": "Questions en cours d'application du protocole ? Je réponds par messages pendant 30 jours. L'accompagnement ne s'arrête pas à la fin de la séance."
+      }
+    ],
+    "reassurance": [
+      "✓ Sans contrainte ni stress",
+      "✓ Protocoles scientifiquement validés",
+      "✓ Résultats durables",
+      "✓ Votre rythme respecté"
+    ]
+  },
+  "tarifs": {
+    "label": "Tarifs",
+    "title": "Tarifs & durée — chat",
+    "intro": "Transparence totale. Suivi 30 jours et compte-rendu toujours inclus.",
+    "items": [
+      {
+        "title": "Consultation distanciel ⭐",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h · Visio (recommandé)",
+        "featured": true,
+        "includes": [
+          "Observation environnement réel",
+          "Bilan comportemental complet",
+          "Protocole personnalisé",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      },
+      {
+        "title": "Consultation présentiel",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h · À domicile Rhône 69",
+        "featured": false,
+        "includes": [
+          "Observation en contexte réel",
+          "Bilan comportemental complet",
+          "Plan d'action sur-mesure",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title_line1": "Ce qu'ils disent",
+    "title_line2": "après leur consultation chat",
+    "items": [
+      {
+        "featured": true,
+        "text": "Mon chat urinait partout depuis des mois. En visio, on a identifié la cause en 45 min. Deux semaines plus tard, problème résolu. C'est bluffant.",
+        "author": "Claire D.",
+        "loc": "Bordeaux · Distanciel"
+      },
+      {
+        "featured": false,
+        "text": "Deux chats qui se battaient depuis l'introduction. CANIFELINK m'a accompagnée sur toute la réintroduction. Aujourd'hui ils dorment ensemble. Je n'y croyais plus.",
+        "author": "Élodie T.",
+        "loc": "Lyon 7e · Présentiel"
+      },
+      {
+        "featured": false,
+        "text": "Mon chat était complètement inaccessible depuis 2 ans. Protocole de désensibilisation progressive. 6 semaines plus tard, il vient chercher les caresses. Incroyable.",
+        "author": "Pierre-Antoine L.",
+        "loc": "Nantes · Distanciel"
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ félin",
+    "title_line1": "Vos questions",
+    "title_line2": "sur le comportementaliste chat",
+    "items": [
+      {
+        "q": "Pourquoi la visio est-elle souvent recommandée pour le chat ?",
+        "a": "Le chat est un animal extrêmement territorial. La présence d'un inconnu chez lui peut le stresser et fausser ses comportements habituels. En visio, il reste dans son environnement sécurisé et se comporte naturellement. De plus, je peux observer son espace de vie (litières, griffoirs, zones de conflit) en vous demandant de filmer ce dont j'ai besoin."
+      },
+      {
+        "q": "Mon chat doit-il avoir consulté un vétérinaire avant ?",
+        "a": "C'est fortement recommandé. De nombreux comportements problématiques chez le chat ont une cause médicale sous-jacente (infections urinaires pour les éliminations, douleur articulaire pour l'agressivité). Je vous demanderai si un bilan vétérinaire récent a été effectué, et pourrai vous orienter si besoin."
+      },
+      {
+        "q": "Peut-on traiter la cohabitation chat-chien ?",
+        "a": "Oui, absolument. La gestion d'une cohabitation chat-chien difficile est l'une de mes spécialités. Je vous propose un protocole d'introduction ou de réintroduction progressif, adapté aux deux espèces, avec des étapes très claires pour avancer sans forcer."
+      },
+      {
+        "q": "Est-ce que vous traitez les chats très vieux ou avec des problèmes de mémoire ?",
+        "a": "Oui. Un chat âgé avec des changements comportementaux mérite une attention particulière — beaucoup de ces changements sont liés à des troubles médicaux (dysfonction cognitive féline) que le vétérinaire peut traiter. Je travaille en coordination avec votre équipe vétérinaire."
+      },
+      {
+        "q": "En combien de séances verra-t-on des résultats ?",
+        "a": "Pour les problèmes courants (éliminations, griffades, peurs légères), les premiers résultats apparaissent souvent en 1 à 3 semaines avec le protocole. Les situations complexes (traumatismes, cohabitations difficiles) demandent plus de temps. Je fixe des objectifs réalistes dès la première séance."
+      }
+    ],
+    "ctaTitle": "Votre chat vous parle.",
+    "ctaText": "Apprenons ensemble à l'écouter — réponse sous 24h, consultation visio possible partout en France.",
+    "ctaList": [
+      "Réponse garantie sous 24h",
+      "Premier échange gratuit",
+      "Suivi 30 jours inclus",
+      "Compte-rendu écrit fourni",
+      "Sans engagement"
+    ],
+    "ctaBtn": "📅 Je prends RDV pour mon chat",
+    "ctaWhatsapp": "💬 WhatsApp"
+  },
+  "ctaFinal": {
+    "title_line1": "Votre chat a quelque chose",
+    "title_line2": "à vous dire",
+    "text": "Comportementaliste félin certifiée à Lyon et en visio partout en France — méthodes 100% bienveillantes, résultats durables.",
+    "btn_rdv": "📅 Je prends rendez-vous",
+    "btn_other": "Aussi spécialiste chien →",
+    "guarantee": "✓ Visio recommandée pour les chats · Suivi 30 jours inclus"
+  }
+}

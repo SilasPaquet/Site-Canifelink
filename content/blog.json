@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "label": "Ressources gratuites",
+    "h1_line1": "Blog comportement animal",
+    "h1_line2": "Comprendre, c'est déjà agir",
+    "intro": "Articles, conseils pratiques et analyses comportementales basés sur l'éthologie. Pour tous les propriétaires qui veulent mieux comprendre leur chien, chat ou cheval."
+  },
+  "featured": {
+    "category": "chien",
+    "catLabel": "Chien",
+    "emoji": "🐕",
+    "title": "Border Collie : comprendre l'hyperactivité comportementale (pas juste de l'énergie)",
+    "excerpt": "Ce n'est pas un chien « difficile » — c'est un chien avec des besoins cognitifs spécifiques non comblés. L'éthologie permet de comprendre ces besoins et d'y répondre autrement qu'avec des heures de sport intense...",
+    "date": "12 mars 2025"
+  },
+  "articles": [
+    {
+      "category": "chat",
+      "catLabel": "Chat",
+      "emoji": "🐈",
+      "bgGradient": "linear-gradient(145deg,#FBF2DC,#F0E0A8)",
+      "title": "Pourquoi votre chat griffe le canapé (et comment l'aider vraiment)",
+      "excerpt": "La griffade est un besoin naturel et vital pour le chat. La punir n'est pas une solution. Voici comment comprendre et réorienter ce comportement...",
+      "date": "3 mars 2025",
+      "readTime": "5 min"
+    },
+    {
+      "category": "cheval",
+      "catLabel": "Cheval",
+      "emoji": "🐴",
+      "bgGradient": "linear-gradient(145deg,var(--teal-pale),var(--teal-light))",
+      "title": "Les signaux de stress équins que tout cavalier devrait reconnaître",
+      "excerpt": "Oreilles en arrière, mâchoire contractée, queue agitée — le cheval vous parle constamment. Apprenez à décoder les 12 signaux de stress les plus courants...",
+      "date": "18 fév. 2025",
+      "readTime": "6 min"
+    },
+    {
+      "category": "chien",
+      "catLabel": "Chien",
+      "emoji": "🐕",
+      "bgGradient": "linear-gradient(145deg,#E8F6EF,#C8E8D8)",
+      "title": "Anxiété de séparation : les 5 erreurs que tous les propriétaires font",
+      "excerpt": "Câlins excessifs au départ, punitions au retour, acheter un deuxième chien — ces « solutions » aggravent souvent le problème. Voici pourquoi...",
+      "date": "5 fév. 2025",
+      "readTime": "7 min"
+    },
+    {
+      "category": "chat",
+      "catLabel": "Chat",
+      "emoji": "🐈",
+      "bgGradient": "linear-gradient(145deg,#FBF2DC,#F0E0A8)",
+      "title": "Chat qui urine hors litière : les 8 causes les plus fréquentes",
+      "excerpt": "Avant de punir ou de désespérer, vérifiez ces 8 causes — médicales et comportementales. Dans 90% des cas, le problème est identifiable et traitable...",
+      "date": "22 jan. 2025",
+      "readTime": "6 min"
+    },
+    {
+      "category": "cheval",
+      "catLabel": "Cheval",
+      "emoji": "🐴",
+      "bgGradient": "linear-gradient(145deg,var(--teal-pale),var(--teal-light))",
+      "title": "Comprendre pourquoi votre cheval refuse d'entrer dans le van",
+      "excerpt": "Ce refus n'est pas de l'entêtement. C'est de la peur, souvent liée à une mauvaise expérience passée. Voici comment l'aborder sans forcer...",
+      "date": "10 jan. 2025",
+      "readTime": "8 min"
+    },
+    {
+      "category": "chien",
+      "catLabel": "Chien",
+      "emoji": "🐕",
+      "bgGradient": "linear-gradient(145deg,#E8F6EF,#C8E8D8)",
+      "title": "Chien réactif en laisse : comprendre avant d'entraîner",
+      "excerpt": "La réactivité en laisse est presque toujours de la peur mal gérée, pas de l'agressivité. La distinction change tout dans l'approche thérapeutique...",
+      "date": "3 jan. 2025",
+      "readTime": "5 min"
+    }
+  ],
+  "guide": {
+    "label": "Guide gratuit",
+    "title_line1": "Comprendre son chien",
+    "title_line2": "en 10 comportements clés",
+    "text": "Un guide PDF pratique et illustré pour décoder les 10 comportements les plus courants — et ce qu'ils signifient vraiment. Gratuit, immédiatement téléchargeable.",
+    "cta": "Recevoir le guide →",
+    "meta": "PDF · 12 pages · Gratuit"
+  },
+  "ctaFinal": {
+    "title_line1": "Un article vous a",
+    "title_line2": "inspiré une question ?",
+    "text": "Passez de la théorie à la pratique — une consultation comportementaliste personnalisée pour traiter la situation spécifique de votre animal.",
+    "btn_rdv": "📅 Prendre rendez-vous",
+    "btn_services": "Voir tous nos services →",
+    "guarantee": "✓ Premier échange gratuit · Réponse sous 24h · Suivi inclus"
+  }
+}

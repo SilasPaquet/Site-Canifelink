@@ -1,0 +1,320 @@
+{
+  "hero": {
+    "badge": "Disponible · Rhône & visio francophone",
+    "h1_line1": "Comportementaliste",
+    "h1_em": "chien, chat & cheval",
+    "h1_line3": "à Lyon & en visio",
+    "sub": "Votre animal exprime quelque chose — pas de la malice. Je l'aide à aller mieux grâce à l'éthologie et des méthodes 100\u00a0% bienveillantes, en présentiel dans le Rhône (69) et en distanciel partout en francophonie.",
+    "proof": "4,9/5 · 120+ avis vérifiés · Google & Réseaux",
+    "cta_rdv": "📅 Prendre rendez-vous",
+    "cta_formations": "Voir les formations →",
+    "chips": ["🐕 Chien", "🐈 Chat", "🐴 Cheval", "✅ Sans coercition", "💻 Visio disponible"]
+  },
+  "band": [
+    "Éthologie certifiée",
+    "Méthodes 100% positives",
+    "Présentiel Rhône (69)",
+    "Distanciel francophonie",
+    "Suivi 30 jours inclus",
+    "Compte-rendu écrit"
+  ],
+  "painPoints": {
+    "label": "Vous vous reconnaissez ?",
+    "title_line1": "Ces situations vous semblent familières ?",
+    "intro": "Si vous vous posez l'une de ces questions, CANIFELINK peut vous aider.",
+    "items": [
+      {
+        "img": "/img/husky.jpg",
+        "alt": "Chien",
+        "q": "« Mon chien aboie, tire, ou réagit de façon excessive. Je ne sais plus quoi faire. »",
+        "a": "Réactivité, agressivité ou anxiété — je vous aide à comprendre la cause pour agir durablement, sans punition."
+      },
+      {
+        "img": "/img/maine-coon.jpg",
+        "alt": "Chat",
+        "q": "« Mon chat fait ses besoins hors litière, griffe tout, ou est devenu inaccessible. »",
+        "a": "Ce n'est pas de la vengeance — c'est un signal. En visio ou en présentiel, on identifie la cause ensemble."
+      },
+      {
+        "img": "/img/cheval.jpg",
+        "alt": "Cheval",
+        "q": "« Mon cheval refuse, est craintif, ou la relation avec lui s'est dégradée. »",
+        "a": "L'éthologie équine permet de comprendre son langage et de reconstruire la confiance sans méthodes coercitives."
+      }
+    ],
+    "cta": "Je veux une consultation →"
+  },
+  "species": {
+    "label": "Mes accompagnements",
+    "title_line1": "Pour quelle espèce",
+    "title_line2": "cherchez-vous de l'aide ?",
+    "intro": "Chaque espèce a ses codes, son langage, ses besoins. Mon approche s'adapte à chacune.",
+    "items": [
+      {
+        "theme": "dog",
+        "img": "/img/husky.jpg",
+        "alt": "Chien",
+        "badge": "Chien",
+        "name": "Comportementaliste chien Lyon",
+        "desc": "Agressivité, anxiété, destructions, réactivité en laisse, peurs, comportements compulsifs — je vous aide à comprendre le « pourquoi » pour changer le « comment ».",
+        "tags": ["Agressivité", "Anxiété", "Réactivité", "Destructions", "Peurs"],
+        "cta": "Consulter pour mon chien →",
+        "href": "/comportementaliste-chien-rhone"
+      },
+      {
+        "theme": "cat",
+        "img": "/img/maine-coon.jpg",
+        "alt": "Chat",
+        "badge": "Chat",
+        "name": "Comportementaliste chat Rhône",
+        "desc": "Éliminations hors litière, griffades, peur, cohabitation difficile — le chat ne fait pas de bêtises, il exprime un besoin. Décryptons-le ensemble, en visio ou à domicile.",
+        "tags": ["Éliminations", "Griffades", "Peur", "Cohabitation", "Agressivité"],
+        "cta": "Consulter pour mon chat →",
+        "href": "/comportementaliste-chat-rhone"
+      },
+      {
+        "theme": "horse",
+        "img": "/img/cheval.jpg",
+        "alt": "Cheval",
+        "badge": "Niche rare",
+        "name": "Comportementaliste cheval Rhône",
+        "desc": "Relation cavalier-cheval, peurs, refus, agressivité à l'abord — l'éthologie équine appliquée est rare en France. Comprenons ensemble le langage de votre cheval.",
+        "tags": ["Relation cavalier", "Peurs", "Refus", "Agressivité", "Bien-être"],
+        "cta": "Consulter pour mon cheval →",
+        "href": "/comportementaliste-cheval-rhone"
+      }
+    ]
+  },
+  "howSteps": {
+    "label": "Comment ça marche",
+    "title": "Votre consultation en 4 étapes simples",
+    "intro": "Du premier contact aux résultats concrets — voici comment je vous accompagne.",
+    "items": [
+      {
+        "num": "1",
+        "title": "Prise de contact",
+        "desc": "Décrivez votre situation en quelques mots. Je vous réponds sous 24h et on détermine ensemble le meilleur format."
+      },
+      {
+        "num": "2",
+        "title": "Bilan comportemental",
+        "desc": "Consultation de 1h30 à 2h (présentiel ou visio). J'observe, j'écoute, j'analyse. Votre animal n'est jamais mis en situation inconfortable."
+      },
+      {
+        "num": "3",
+        "title": "Plan d'action sur-mesure",
+        "desc": "Solutions concrètes adaptées à votre quotidien + compte-rendu écrit envoyé sous 48h. Pas de méthodes génériques."
+      },
+      {
+        "num": "4",
+        "title": "Suivi 30 jours inclus",
+        "desc": "Accompagnement par messages pendant 30 jours après la séance. Vous n'êtes jamais seul dans l'application."
+      }
+    ],
+    "reassurance": [
+      "✓ Sans coercition ni violence",
+      "✓ Bilan médical préalable respecté",
+      "✓ Votre rythme respecté",
+      "✓ Méthodes scientifiquement validées"
+    ]
+  },
+  "about": {
+    "label": "À propos de CANIFELINK",
+    "title_line1": "Une passion.",
+    "title_line2": "Une méthode.",
+    "title_line3": "Trois espèces.",
+    "text": "Comportementaliste animalière certifiée, je suis spécialisée en éthologie appliquée pour le chien, le chat et le cheval — une triple expertise très rare en France. Basée dans le Rhône (69), j'interviens en présentiel et en distanciel dans toute la francophonie.",
+    "quote": "« Je n'utilise ni coercition, ni contrainte. Mon rôle est de vous donner les clés pour comprendre votre animal — pas de le dresser, mais de l'écouter vraiment. »",
+    "certifs": [
+      {
+        "icon": "🎓",
+        "title": "Certifiée comportementaliste",
+        "sub": "Chien · Chat · Cheval — Formation continue régulière"
+      },
+      {
+        "icon": "🔬",
+        "title": "Approche éthologique",
+        "sub": "Basée sur les sciences du comportement animal"
+      },
+      {
+        "icon": "📍",
+        "title": "Rhône (69) + monde francophone",
+        "sub": "Présentiel à domicile & distanciel par visio"
+      },
+      {
+        "icon": "🤝",
+        "title": "Partenaire des professionnels",
+        "sub": "Refuges, cliniques vétérinaires, éleveurs"
+      }
+    ]
+  },
+  "stats": [
+    { "num": "3", "label": "Espèces accompagnées" },
+    { "num": "+500", "label": "Consultations réalisées" },
+    { "num": "4,9⭐", "label": "Note moyenne (120 avis)" },
+    { "num": "100%", "label": "Méthodes bienveillantes" }
+  ],
+  "testimonials": {
+    "label": "Témoignages",
+    "title_line1": "Ils ont fait confiance",
+    "title_line2": "à CANIFELINK",
+    "items": [
+      {
+        "pill": "Chien",
+        "pillClass": "pill-dog",
+        "text": "Notre Border Collie avait développé une agressivité envers les inconnus qui rendait nos promenades impossibles. Après deux séances, on comprend enfin ce qu'il vit — et lui va tellement mieux.",
+        "author": "Sophie & Thomas R.",
+        "loc": "Lyon 3e · Présentiel",
+        "stars": 5,
+        "featured": true
+      },
+      {
+        "pill": "Chat",
+        "pillClass": "pill-cat",
+        "text": "Mon chat urinait partout depuis des mois. En visio, on a identifié la cause en 45 min. Deux semaines plus tard, problème résolu. C'est bluffant.",
+        "author": "Claire D.",
+        "loc": "Bordeaux · Distanciel",
+        "stars": 5,
+        "featured": false
+      },
+      {
+        "pill": "Cheval",
+        "pillClass": "pill-horse",
+        "text": "Je cherchais quelqu'un qui comprenne vraiment l'éthologie équine. CANIFELINK, c'est une approche totalement différente de l'équitation classique. Ma jument est transformée.",
+        "author": "Aurélie F.",
+        "loc": "Ain · Distanciel",
+        "stars": 5,
+        "featured": false
+      }
+    ]
+  },
+  "faq": {
+    "label": "Questions fréquentes",
+    "title_line1": "Vous avez des questions ?",
+    "items": [
+      {
+        "q": "Comment se déroule une consultation comportementaliste ?",
+        "a": "La séance dure 1h30 à 2h. Après un bilan comportemental complet, je vous explique les causes du comportement et vous propose des solutions concrètes. Un compte-rendu écrit vous est envoyé sous 48h, et le suivi par messages est inclus 30 jours."
+      },
+      {
+        "q": "Est-ce que vous intervenez en visio ?",
+        "a": "Oui, je propose des consultations en visio pour toute la France, la Belgique, la Suisse et le Québec. La visio est souvent aussi efficace que le présentiel — et pour les chats, parfois même préférable car l'animal reste dans son environnement."
+      },
+      {
+        "q": "Travaillez-vous aussi avec les chevaux ?",
+        "a": "Oui — CANIFELINK est l'une des très rares structures en France à proposer une expertise comportementale pour trois espèces : chien, chat et cheval. Mon approche éthologique équine traite les problèmes de relation cavalier-cheval, les peurs, refus et comportements agressifs."
+      },
+      {
+        "q": "Quelle différence avec un éducateur canin ?",
+        "a": "L'éducateur travaille principalement sur l'apprentissage d'ordres. Le comportementaliste analyse les causes profondes (anxiété, traumatisme, besoin non comblé) pour y apporter une réponse thérapeutique durable, basée sur l'éthologie. Les deux sont complémentaires."
+      },
+      {
+        "q": "Combien coûte une consultation ?",
+        "a": "Les tarifs varient selon l'espèce et le mode (présentiel ou visio). Le suivi 30 jours est toujours inclus. Contactez-moi pour recevoir la grille tarifaire complète — la transparence sur les prix est une valeur importante chez CANIFELINK."
+      },
+      {
+        "q": "Mon animal doit-il avoir vu un vétérinaire avant ?",
+        "a": "Oui, c'est recommandé. Tout comportement problématique peut avoir une cause médicale sous-jacente. Je vous demanderai toujours si un bilan vétérinaire récent a été effectué. Le comportementaliste intervient en complément — jamais en remplacement — du vétérinaire."
+      }
+    ],
+    "ctaTitle": "Prêts à commencer ?",
+    "ctaText": "Décrivez votre situation en quelques lignes — je vous réponds sous 24h pour organiser votre consultation.",
+    "ctaList": [
+      "Réponse garantie sous 24h",
+      "Premier échange gratuit",
+      "Suivi 30 jours inclus",
+      "Compte-rendu écrit fourni",
+      "Sans engagement"
+    ]
+  },
+  "differentiateurs": {
+    "label": "Pourquoi CANIFELINK",
+    "title_line1": "Ce qui nous",
+    "title_line2": "rend uniques",
+    "items": [
+      {
+        "icon": "🌿",
+        "title": "3 espèces maîtrisées",
+        "text": "Chien, chat et cheval — une expertise tri-espèces très rare en France, pour un accompagnement global de tous vos animaux par un seul professionnel de confiance."
+      },
+      {
+        "icon": "🔬",
+        "title": "L'éthologie, pas le dressage",
+        "text": "Je travaille sur les causes profondes du comportement. Les résultats sont durables parce qu'ils respectent la nature profonde de l'animal — pas juste masqués."
+      },
+      {
+        "icon": "💻",
+        "title": "Partout en francophonie",
+        "text": "Présentiel dans le Rhône (69), distanciel en France, Belgique, Suisse et Québec. Votre localisation n'est jamais un obstacle à une aide de qualité."
+      },
+      {
+        "icon": "📋",
+        "title": "Suivi 30 jours inclus",
+        "text": "Compte-rendu écrit + accompagnement par messages 30 jours après la séance. Vous avez des questions pendant l'application ? Je suis là."
+      }
+    ]
+  },
+  "formations": {
+    "label": "Formations",
+    "title_line1": "Apprenez à",
+    "title_line2": "comprendre",
+    "title_line3": "votre animal",
+    "intro": "Formations en ligne et en présentiel pour les particuliers passionnés comme pour les professionnels animaliers. Devenir autonome dans la lecture du comportement, c'est possible.",
+    "cta": "Découvrir toutes les formations →",
+    "items": [
+      { "title": "Comprendre son chien en 5 modules", "meta": "🐕 En ligne · 5h · Tous niveaux", "price": "149 €" },
+      { "title": "Communication féline — bases & avancé", "meta": "🐈 En ligne + live · 8h · Tous niveaux", "price": "199 €" },
+      { "title": "Éthologie équine appliquée", "meta": "🐴 Présentiel Rhône · 1 journée · Cavaliers", "price": "280 €" },
+      { "title": "Formation Pro — Refuges & vétérinaires", "meta": "🏥 Intra-entreprise · Sur devis · B2B", "price": "Sur devis", "gold": true }
+    ]
+  },
+  "blog": {
+    "label": "Ressources & blog",
+    "title_line1": "Comprendre,",
+    "title_line2": "c'est déjà agir",
+    "items": [
+      {
+        "img": "/img/border.jpg",
+        "alt": "Chien comportementaliste",
+        "bgClass": "bg-dog",
+        "cat": "Chien",
+        "catClass": "cat-dog",
+        "title": "Border Collie : comprendre l'hyperactivité comportementale (pas juste de l'énergie)",
+        "excerpt": "Ce n'est pas un chien « difficile » — c'est un chien avec des besoins cognitifs spécifiques. L'éthologie permet de les combler autrement qu'avec des heures de sport...",
+        "date": "12 mars 2025",
+        "readTime": "8 min →",
+        "big": true
+      },
+      {
+        "img": "/img/maine-coon-table.jpg",
+        "alt": "Chat comportementaliste",
+        "bgClass": "bg-cat",
+        "cat": "Chat",
+        "catClass": "cat-cat",
+        "title": "Pourquoi votre chat griffe le canapé (et comment l'aider vraiment)",
+        "date": "3 mars 2025",
+        "readTime": "5 min →",
+        "big": false
+      },
+      {
+        "img": "/img/chevaux.jpg",
+        "alt": "Cheval comportementaliste",
+        "bgClass": "bg-horse",
+        "cat": "Cheval",
+        "catClass": "cat-horse",
+        "title": "Les signaux de stress équins que tout cavalier devrait reconnaître",
+        "date": "18 fév. 2025",
+        "readTime": "6 min →",
+        "big": false
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title_line1": "Prêt à comprendre",
+    "title_line2": "votre animal ?",
+    "text": "Décrivez votre situation en quelques lignes — je vous réponds sous 24h pour organiser votre consultation. Premier échange gratuit.",
+    "btn_rdv": "📅 Je prends rendez-vous",
+    "btn_email": "✉ Poser une question",
+    "guarantee": "✓ Sans engagement · Réponse sous 24h · Premier échange gratuit"
+  }
+}

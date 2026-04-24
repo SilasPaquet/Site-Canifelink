@@ -1,0 +1,198 @@
+{
+  "hero": {
+    "badge": "En ligne & présentiel · Chien, Chat, Cheval",
+    "h1_line1": "Formations",
+    "h1_em": "comportement animal",
+    "h1_line3": "pour tous les niveaux",
+    "sub": "Particuliers passionnés ou professionnels de l'animal — comprendre le comportement de votre animal change tout. Transformez votre regard sur vos compagnons.",
+    "cta_catalogue": "Voir le catalogue →",
+    "cta_pro": "Formation pro B2B →"
+  },
+  "cibles": [
+    {
+      "icon": "🐾",
+      "title": "Vous êtes particulier",
+      "text": "Comprenez votre chien, chat ou cheval, repérez les signes de bien-être ou de mal-être, améliorez votre quotidien et prévenez les problèmes comportementaux.",
+      "anchor": "#catalogue"
+    },
+    {
+      "icon": "🏥",
+      "title": "Vous êtes professionnel",
+      "text": "Vétérinaires, équipes de refuge, éleveurs, toiletteurs, dog-sitters — montez en compétences sur la lecture comportementale pour mieux accompagner les animaux dont vous avez la charge.",
+      "anchor": "#pro-catalog"
+    }
+  ],
+  "particuliers": {
+    "label": "Pour les particuliers",
+    "title_line1": "Catalogue des formations",
+    "title_line2": "particuliers",
+    "intro": "Formations accessibles à tous, sans prérequis. En ligne à votre rythme ou en présentiel à Lyon.",
+    "items": [
+      {
+        "badge": "🖥 En ligne",
+        "badgeClass": "badge-online",
+        "title": "Comprendre son chien en 5 modules",
+        "meta": "🐕 5h de contenu · Tous niveaux · Accès à vie",
+        "desc": "Décodez le langage corporel de votre chien, comprenez ses besoins fondamentaux et apprenez à reconnaître les signaux d'inconfort. Programme pratique et immédiatement applicable.",
+        "price": "149 €",
+        "cta": "S'inscrire →"
+      },
+      {
+        "badge": "🖥 En ligne + live",
+        "badgeClass": "badge-online",
+        "title": "Communication féline — bases & avancé",
+        "meta": "🐈 8h · Modules + session live · Tous niveaux",
+        "desc": "Comprenez la communication féline, lisez les postures et les expressions, gérez les conflits inter-chats et créez un environnement enrichissant adapté aux besoins du félin.",
+        "price": "199 €",
+        "cta": "S'inscrire →"
+      },
+      {
+        "badge": "📍 Présentiel",
+        "badgeClass": "badge-presentiel",
+        "title": "Éthologie équine appliquée",
+        "meta": "🐴 Journée complète · Écurie Rhône · Cavaliers",
+        "desc": "Découvrez le comportement naturel du cheval, apprenez à lire ses signaux corporels, comprenez comment il apprend et comment créer une relation de confiance basée sur le respect mutuel.",
+        "price": "280 €",
+        "cta": "S'inscrire →"
+      },
+      {
+        "badge": "🖥 En ligne",
+        "badgeClass": "badge-online",
+        "title": "Bien-être animal — guide pratique",
+        "meta": "🐾 3h · Chien & Chat · Débutants",
+        "desc": "Formation introductive sur les 5 libertés, les besoins fondamentaux des animaux de compagnie et comment évaluer et améliorer leur qualité de vie au quotidien.",
+        "price": "79 €",
+        "cta": "S'inscrire →"
+      }
+    ]
+  },
+  "professionnels": {
+    "label": "Pour les professionnels",
+    "title_line1": "Formations B2B",
+    "title_line2": "pour les professionnels de l'animal",
+    "intro": "Vétérinaires, équipes de refuge, éleveurs, toiletteurs, dog-sitters, gardes d'animaux — montez en compétences sur la lecture et la gestion comportementale.",
+    "items": [
+      {
+        "badge": "🏥 Intra-entreprise",
+        "badgeClass": "badge-pro",
+        "title": "Formation Pro Refuge & Associations",
+        "meta": "🐾 Sur-mesure · Présentiel ou visio · Groupe",
+        "desc": "Gestion du stress des animaux en shelter, évaluation comportementale à l'adoption, détection des troubles, protocoles d'enrichissement — adapté à vos réalités terrain.",
+        "price": "Sur devis",
+        "cta": "Demander un devis →"
+      },
+      {
+        "badge": "🩺 Cliniques vétérinaires",
+        "badgeClass": "badge-pro",
+        "title": "Formation Équipe Vétérinaire",
+        "meta": "🐾 Sur-mesure · Intra-clinique · Demi-journée ou journée",
+        "desc": "Gestion des animaux anxieux en consultation, communication client sur les problèmes comportementaux, protocoles de manipulation sans stress — pour améliorer l'expérience patient et équipe.",
+        "price": "Sur devis",
+        "cta": "Demander un devis →"
+      }
+    ],
+    "proBox": {
+      "title": "Vous êtes professionnel ?",
+      "text": "Les formations B2B sont 100% personnalisées à votre structure, votre équipe et vos besoins spécifiques. Prenons 20 minutes pour définir ensemble le format adapté.",
+      "cta": "Demander un devis →"
+    }
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title_line1": "Ce que disent",
+    "title_line2": "nos stagiaires",
+    "items": [
+      {
+        "pill": "Formation chien",
+        "pillClass": "pill-dog",
+        "featured": true,
+        "text": "La formation en ligne sur le chien est dense, pratique et surtout immédiatement applicable. J'ai appris plus en 5h qu'en 5 ans de tutoriels YouTube. Je comprends enfin MON chien.",
+        "author": "Laurène M.",
+        "loc": "Formation chien en ligne"
+      },
+      {
+        "pill": "Formation cheval",
+        "pillClass": "pill-horse",
+        "featured": false,
+        "text": "La journée éthologie équine a changé ma façon de voir mon cheval. Ce n'est pas une formatrice qui enseigne la technique, c'est quelqu'un qui vous apprend à penser comme un cheval.",
+        "author": "Romain D.",
+        "loc": "Formation équine présentiel"
+      },
+      {
+        "pill": "Formation pro",
+        "pillClass": "pill-pro",
+        "featured": false,
+        "text": "Formation intra pour notre équipe de refuge. Le contenu est adapté à nos réalités (animaux traumatisés, flux important). Notre taux d'adoption a augmenté depuis qu'on applique ces protocoles.",
+        "author": "Association animaux Rhône",
+        "loc": "Formation refuge — intra-entreprise"
+      }
+    ]
+  },
+  "garanties": {
+    "label": "Garanties pédagogiques",
+    "title_line1": "Ce que vous êtes",
+    "title_line2": "en droit d'attendre",
+    "items": [
+      { "icon": "🎓", "title": "Contenus validés", "text": "Programmes basés sur les sciences du comportement animal — éthologie, étiologie, théories de l'apprentissage. Mis à jour régulièrement." },
+      { "icon": "🔬", "title": "Approche scientifique", "text": "Pas de méthodes fantaisistes ou de pseudoscience. Tout est ancré dans des données vérifiables et des pratiques reconnues." },
+      { "icon": "🤝", "title": "Support inclus", "text": "Questions après la formation ? Je réponds. L'accompagnement ne s'arrête pas à la dernière vidéo ou à la fin de la journée." },
+      { "icon": "💼", "title": "Devis pro personnalisé", "text": "Chaque formation B2B est construite sur-mesure à partir de vos besoins réels. Pas de contenu générique recyclé." }
+    ]
+  },
+  "inscription": {
+    "label": "Comment s'inscrire",
+    "title_line1": "3 étapes simples",
+    "title_line2": "pour démarrer",
+    "items": [
+      {
+        "num": "1",
+        "title": "Choisissez votre formation",
+        "text": "Particulier ou professionnel, chien, chat ou cheval — identifiez la formation qui correspond à vos besoins dans le catalogue ci-dessus."
+      },
+      {
+        "num": "2",
+        "title": "Envoyez votre demande",
+        "text": "Via le formulaire de contact ou WhatsApp — précisez la formation souhaitée et votre contexte. Je vous reviens sous 24h avec les informations d'inscription."
+      },
+      {
+        "num": "3",
+        "title": "Commencez à apprendre",
+        "text": "Accès immédiat pour les formations en ligne, date confirmée pour le présentiel. Vous avez tout le support nécessaire pour progresser."
+      }
+    ],
+    "cta": "Je m'inscris ou demande un devis →"
+  },
+  "faq": {
+    "label": "FAQ Formations",
+    "title_line1": "Questions sur",
+    "title_line2": "les formations",
+    "items": [
+      {
+        "q": "Faut-il des prérequis pour les formations particuliers ?",
+        "a": "Non, aucun prérequis. Les formations particuliers sont accessibles à tous, qu'il s'agisse de votre premier animal ou que vous soyez passionné depuis des années. Le niveau de chaque formation est indiqué dans le catalogue."
+      },
+      {
+        "q": "Les formations en ligne sont-elles finançables (CPF, OPCO) ?",
+        "a": "Le financement CPF et OPCO est en cours de mise en place. Contactez-moi pour connaître l'état actuel des certifications disponibles. Les formations B2B peuvent faire l'objet d'une prise en charge via votre OPCO — je vous accompagne dans le dossier."
+      },
+      {
+        "q": "Qu'est-ce qui différencie vos formations des tutoriels YouTube ?",
+        "a": "La structure, la rigueur et le support. Mes formations sont construites sur des bases scientifiques solides, avec une progression pédagogique claire. Vous n'êtes pas seul face à l'écran — je suis disponible pour répondre à vos questions spécifiques à votre animal."
+      },
+      {
+        "q": "Peut-on combiner une formation avec une consultation ?",
+        "a": "Absolument, et c'est souvent la combinaison la plus efficace. La formation vous donne les bases théoriques, la consultation traite votre situation spécifique. Je peux créer des parcours combinés sur-mesure — contactez-moi pour en discuter."
+      }
+    ],
+    "ctaTitle": "Prêt à mieux comprendre votre animal ?",
+    "ctaText": "Formation particulier ou devis B2B — je vous réponds sous 24h.",
+    "ctaList": [
+      "Contenus scientifiquement validés",
+      "Support inclus après la formation",
+      "Formations sur-mesure B2B",
+      "En ligne à votre rythme ou présentiel"
+    ],
+    "ctaBtn": "Je m'inscris ou demande un devis →",
+    "ctaWhatsapp": "💬 WhatsApp"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "badge": "Comportementaliste certifiée · 3 espèces · Rhône (69)",
+    "h1_line1": "Bonjour,",
+    "h1_em": "Manue",
+    "sub": "Comportementaliste animalière certifiée, je suis spécialisée en éthologie appliquée pour le chien, le chat et le cheval — une triple expertise très rare en France. Basée dans le Rhône (69), j'interviens en présentiel et en distanciel dans toute la francophonie.",
+    "cta": "📅 Réserver une consultation →"
+  },
+  "histoire": {
+    "label": "Mon histoire",
+    "title_line1": "Le déclic.",
+    "title_line2": "La passion.",
+    "title_line3": "La mission.",
+    "p1": "Tout a commencé avec un chien mal compris — le mien. Face aux méthodes coercitives proposées par le marché, j'ai commencé à chercher ailleurs. J'ai découvert l'éthologie, la réalité scientifique du comportement animal, et une autre façon d'aborder la relation homme-animal.",
+    "p2": "Ce déclic m'a conduite vers une formation rigoureuse en comportementalisme animal, puis vers une spécialisation progressive sur les trois espèces qui me tiennent à cœur : le chien, le chat et le cheval.",
+    "quote": "\"Je n'utilise ni coercition, ni contrainte. Mon rôle est de vous donner les clés pour comprendre votre animal — pas de le dresser, mais de l'écouter vraiment.\"",
+    "parcours_label": "Parcours & formation",
+    "parcours_subtitle": "Une expertise construite pas à pas",
+    "timeline": [
+      {
+        "year": "Formation initiale",
+        "title": "Certification comportementaliste canin",
+        "desc": "Formation complète sur le comportement, l'éthologie et les méthodes d'apprentissage du chien. Première spécialisation."
+      },
+      {
+        "year": "Approfondissement",
+        "title": "Certification comportementaliste félin",
+        "desc": "Spécialisation sur l'éthologie féline, les besoins du chat domestique et les protocoles de consultation visio adaptés aux félins."
+      },
+      {
+        "year": "Niche rare",
+        "title": "Éthologie équine appliquée",
+        "desc": "Formation approfondie en comportement équin, langage corporel du cheval et relation cavalier-cheval. Triple expertise finalisée."
+      },
+      {
+        "year": "Continu",
+        "title": "Formation continue régulière",
+        "desc": "Séminaires, conférences et lectures scientifiques pour rester à la pointe des connaissances en comportementalisme animal."
+      }
+    ]
+  },
+  "valeurs": {
+    "label": "Méthodes & valeurs",
+    "title_line1": "Ce en quoi",
+    "title_line2": "je crois profondément",
+    "items": [
+      {
+        "icon": "🌿",
+        "title": "L'éthologie, pas le dressage",
+        "text": "Je m'appuie sur les sciences du comportement animal pour comprendre le « pourquoi » d'un comportement avant d'agir sur le « comment ». Les résultats sont durables parce qu'ils respectent la nature de l'animal."
+      },
+      {
+        "icon": "🤝",
+        "title": "Bienveillance & respect",
+        "text": "Aucune méthode coercitive, aucune punition physique ou émotionnelle. L'animal n'est jamais mis en situation inconfortable ou stressante lors d'une consultation."
+      },
+      {
+        "icon": "👥",
+        "title": "Vous rendre autonomes",
+        "text": "Mon objectif n'est pas de créer une dépendance à mes services. C'est de vous donner les outils pour comprendre votre animal et évoluer ensemble — durablement et en autonomie."
+      },
+      {
+        "icon": "🔬",
+        "title": "Rigueur scientifique",
+        "text": "Pas de pseudoscience, pas de méthodes fantaisistes. Tout ce que j'enseigne ou propose est ancré dans des données vérifiables et des pratiques reconnues par la communauté scientifique."
+      },
+      {
+        "icon": "💊",
+        "title": "Complémentarité vétérinaire",
+        "text": "Je travaille en complémentarité avec les vétérinaires et les ostéopathes animaliers. Je n'interviens jamais en remplacement d'un suivi médical — et je vous orienterai vers ces professionnels si nécessaire."
+      },
+      {
+        "icon": "📋",
+        "title": "Transparence & clarté",
+        "text": "Tarifs transparents, comptes-rendus écrits systématiques, objectifs clairs annoncés dès la première consultation. Vous savez toujours où vous en êtes et vers où vous allez."
+      }
+    ]
+  },
+  "tripleExpertise": {
+    "label": "La triple expertise",
+    "title_line1": "Pourquoi le chien,",
+    "title_line2": "le chat et le cheval ?",
+    "intro": "Les trois espèces forment un ensemble cohérent pour moi — des animaux avec lesquels les humains entretiennent des relations profondes, complexes, et souvent mal comprises.",
+    "species": [
+      {
+        "icon": "🐕",
+        "title": "Le chien",
+        "text": "Animal social par excellence, le chien vit dans notre monde et porte nos incompréhensions. Son comportement est le reflet de notre relation avec lui.",
+        "cta": "Consulter pour mon chien →",
+        "href": "/comportementaliste-chien-rhone"
+      },
+      {
+        "icon": "🐈",
+        "title": "Le chat",
+        "text": "Le chat est souvent mal compris, jugé « indépendant » ou « ingrat ». En réalité, il communique constamment — nous n'avons pas appris son langage.",
+        "cta": "Consulter pour mon chat →",
+        "href": "/comportementaliste-chat-rhone"
+      },
+      {
+        "icon": "🐴",
+        "title": "Le cheval",
+        "text": "L'éthologie équine est encore trop rare. Le cheval mérite un regard scientifique sur son comportement, sans les mythes de domination qui persistent dans l'équitation traditionnelle.",
+        "cta": "Consulter pour mon cheval →",
+        "href": "/comportementaliste-cheval-rhone"
+      }
+    ]
+  },
+  "stats": [
+    { "num": "3", "label": "Espèces maîtrisées" },
+    { "num": "+500", "label": "Consultations réalisées" },
+    { "num": "4,9 ⭐", "label": "Note moyenne (120 avis)" },
+    { "num": "100%", "label": "Sans coercition" }
+  ],
+  "cta": {
+    "label": "Prochaine étape",
+    "title_line1": "Prêt à commencer",
+    "title_line2": "votre consultation ?",
+    "text": "Je vous réponds sous 24h pour organiser votre consultation — présentiel dans le Rhône ou visio partout en France. Premier échange gratuit.",
+    "btn_rdv": "📅 Réserver ma consultation →",
+    "btn_email": "✉ Me contacter →"
+  }
+}

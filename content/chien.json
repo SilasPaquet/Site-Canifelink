@@ -1,0 +1,205 @@
+{
+  "hero": {
+    "badge": "Présentiel Rhône · Distanciel France et francophonie",
+    "h1_line1": "Comportementaliste",
+    "h1_em": "chien",
+    "h1_line3": "à Lyon & en visio",
+    "sub": "Votre chien aboie, mord, détruit, a peur de tout ? Ce n'est pas un « mauvais chien » — c'est un chien qui exprime quelque chose. Je vous aide à décoder son message et à retrouver une relation sereine et durable.",
+    "proof": "4,9/5 · 120+ avis vérifiés",
+    "cta_rdv": "📅 Je prends RDV pour mon chien",
+    "cta_problems": "Voir les problématiques →"
+  },
+  "problems": {
+    "label": "Problèmes traités",
+    "title_line1": "Les problématiques",
+    "title_line2": "que je traite — chien",
+    "intro": "Chaque comportement a une cause. Mon rôle est de l'identifier, la comprendre et vous donner les outils pour y répondre durablement — sans punition, sans coercition.",
+    "items": [
+      {
+        "icon": "⚡",
+        "title": "Agressivité",
+        "text": "Envers les humains, les chiens ou d'autres animaux. Grognements, claquements de dents, morsures — je diagnostique la cause réelle (peur, douleur, territoire) et vous guide pas à pas."
+      },
+      {
+        "icon": "😰",
+        "title": "Anxiété & peurs",
+        "text": "Hyperattachement, anxiété de séparation, phobies des bruits ou de l'environnement. Ces états de détresse sont traçables et traitables avec une approche éthologique rigoureuse."
+      },
+      {
+        "icon": "🏠",
+        "title": "Destructions",
+        "text": "Meubles déchiquetés, portes griffées, maison mise sens dessus dessous en votre absence — cette expression a toujours une raison. On la trouve ensemble."
+      },
+      {
+        "icon": "🦮",
+        "title": "Réactivité en laisse",
+        "text": "Votre chien tire, aboie, se jette sur les autres chiens ou les cyclistes. La réactivité est le symptôme d'une émotion débordante — pas d'un manque d'obéissance."
+      },
+      {
+        "icon": "🔁",
+        "title": "Comportements compulsifs",
+        "text": "Tourner en rond, se mordre la queue, chasser des ombres ou des mouches imaginaires — ces stéréotypies indiquent une souffrance interne qu'il faut prendre en charge."
+      },
+      {
+        "icon": "🐾",
+        "title": "Propreté & autres",
+        "text": "Non-propreté, marquages urinaires, fugues, refus d'obéissance — tout comportement persistant mérite une analyse comportementale, pas des punitions."
+      }
+    ]
+  },
+  "howSteps": {
+    "label": "Déroulement",
+    "title_line1": "Votre consultation",
+    "title_line2": "en 4 étapes",
+    "intro": "Présentiel à domicile dans le Rhône (69) ou distanciel par visio, en France et dans toute la francophonie.",
+    "items": [
+      {
+        "num": "1",
+        "title": "Échange préalable",
+        "desc": "Vous décrivez la situation en quelques lignes. Je vous rappelle sous 24h pour clarifier et adapter le format de la consultation."
+      },
+      {
+        "num": "2",
+        "title": "Bilan comportemental",
+        "desc": "1h30 à 2h d'observation et d'échanges approfondis. Je recueille l'anamnèse complète de votre chien — sans jugement, sans pression."
+      },
+      {
+        "num": "3",
+        "title": "Plan d'action clair",
+        "desc": "Protocole personnalisé adapté à votre quotidien + compte-rendu écrit envoyé sous 48h. Des solutions concrètes, pas des généralités."
+      },
+      {
+        "num": "4",
+        "title": "Suivi 30 jours inclus",
+        "desc": "Accompagnement par messages pendant 30 jours. Vous avez une question en appliquant le protocole ? Je suis là pour répondre."
+      }
+    ],
+    "reassurance": [
+      "✓ Sans coercition ni punitions",
+      "✓ Bilan vétérinaire respecté",
+      "✓ Résultats durables visés",
+      "✓ Votre rythme respecté"
+    ]
+  },
+  "zone": {
+    "label": "Zone d'intervention",
+    "title_line1": "Présentiel Rhône",
+    "title_line2": "& distanciel France entière",
+    "presentiel": {
+      "icon": "📍",
+      "title": "Présentiel — Rhône (69)",
+      "text": "Intervention à domicile dans tout le département du Rhône. Je me déplace chez vous pour observer votre chien dans son environnement réel — là où les comportements se manifestent vraiment.",
+      "sub": "Lyon · Villeurbanne · Éveux · L'Arbresle · Mornant · Givors · Tarare · Thizy…"
+    },
+    "distanciel": {
+      "icon": "💻",
+      "title": "Distanciel — France & francophonie",
+      "text": "Consultation par visio pour toute la France, la Belgique, la Suisse et le Québec. La visio est souvent aussi efficace que le présentiel — vous montrez votre environnement en direct.",
+      "sub": "France · Belgique · Suisse · Québec · Tout pays francophone"
+    }
+  },
+  "tarifs": {
+    "label": "Tarifs",
+    "title": "Tarifs & durée",
+    "intro": "Transparence totale — pas de surprise. Le suivi 30 jours et le compte-rendu écrit sont toujours inclus.",
+    "items": [
+      {
+        "title": "Consultation distanciel",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h · Visio",
+        "featured": false,
+        "includes": [
+          "Bilan comportemental complet",
+          "Protocole personnalisé",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      },
+      {
+        "title": "Consultation présentiel",
+        "price": "Sur devis",
+        "duration": "⏱ 1h30 à 2h · À domicile Rhône 69",
+        "featured": true,
+        "includes": [
+          "Observation en contexte réel",
+          "Bilan comportemental complet",
+          "Plan d'action sur-mesure",
+          "Compte-rendu écrit (48h)",
+          "Suivi 30 jours par messages"
+        ]
+      }
+    ],
+    "note": "Contactez-moi pour recevoir la grille tarifaire détaillée — je vous réponds sous 24h."
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title_line1": "Ce qu'ils disent",
+    "title_line2": "après leur consultation chien",
+    "items": [
+      {
+        "featured": true,
+        "text": "Notre Border Collie avait développé une agressivité envers les inconnus qui rendait nos promenades impossibles. Après deux séances, on comprend enfin ce qu'il vit — et lui va tellement mieux.",
+        "author": "Sophie & Thomas R.",
+        "loc": "Lyon 3e · Présentiel"
+      },
+      {
+        "featured": false,
+        "text": "Mon Berger Australien était incontrôlable en laisse. Les méthodes de Manue sont à l'opposé de la répression — j'ai appris à comprendre sa peur. 3 mois plus tard, on se promène sereinement.",
+        "author": "Julien M.",
+        "loc": "Villeurbanne · Présentiel"
+      },
+      {
+        "featured": false,
+        "text": "Anxiété de séparation sévère depuis un déménagement. En visio depuis Toulouse, on a identifié toutes les sources de stress. Le protocole a été respecté et les résultats sont là.",
+        "author": "Marine B.",
+        "loc": "Toulouse · Distanciel"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Questions fréquentes",
+    "title_line1": "Vos questions",
+    "title_line2": "sur le comportementaliste chien",
+    "items": [
+      {
+        "q": "Quelle différence entre comportementaliste et éducateur canin ?",
+        "a": "L'éducateur canin apprend des ordres à votre chien. Le comportementaliste analyse les causes profondes d'un comportement problématique (anxiété, peur, traumatisme) pour y apporter une réponse thérapeutique durable. Les deux sont complémentaires — si mon chien a besoin d'éducation après la consultation, je vous oriente vers un professionnel de confiance."
+      },
+      {
+        "q": "Mon chien doit-il venir lors de la séance ?",
+        "a": "En présentiel, son environnement est essentiel — l'observation en contexte réel est plus révélatrice. En visio, vous tenez la caméra et me montrez ce que je vous demande de filmer. Dans les deux cas, votre chien ne sera jamais mis en situation inconfortable ou stressante."
+      },
+      {
+        "q": "Combien de séances faut-il prévoir ?",
+        "a": "La grande majorité des situations se résout sur 1 à 3 séances. Je suis contre l'abonnement infini — mon objectif est de vous rendre autonomes le plus vite possible. Des séances de suivi sont disponibles si nécessaire."
+      },
+      {
+        "q": "Mon chien a déjà consulté un véto comportementaliste — est-ce différent ?",
+        "a": "Le vétérinaire comportementaliste est médecin et peut prescrire des traitements médicaux. Mon approche est 100% comportementale et éthologique, sans médicaments. Les deux approches sont complémentaires. Si votre chien est sous traitement, j'adapte mon protocole en coordination avec votre vétérinaire."
+      },
+      {
+        "q": "La consultation en visio est-elle aussi efficace ?",
+        "a": "Oui, dans la grande majorité des cas. La visio me permet de voir votre chien dans son environnement quotidien, d'observer la dynamique familiale et d'analyser les déclencheurs en temps réel. Certains chiens sont même plus détendus chez eux qu'en présence d'un inconnu."
+      }
+    ],
+    "ctaTitle": "Prêt à comprendre votre chien ?",
+    "ctaText": "Décrivez votre situation en quelques lignes — je vous réponds sous 24h pour organiser votre consultation.",
+    "ctaList": [
+      "Réponse garantie sous 24h",
+      "Premier échange gratuit",
+      "Suivi 30 jours inclus",
+      "Compte-rendu écrit fourni",
+      "Sans engagement"
+    ],
+    "ctaBtn": "📅 Je prends RDV pour mon chien",
+    "ctaWhatsapp": "💬 WhatsApp"
+  },
+  "ctaFinal": {
+    "title_line1": "Votre chien mérite",
+    "title_line2": "d'être compris",
+    "text": "Comportementaliste certifiée à Lyon (Rhône) et en visio — réponse sous 24h, méthodes 100% bienveillantes.",
+    "btn_rdv": "📅 Je prends rendez-vous",
+    "btn_about": "En savoir plus sur Manue →",
+    "guarantee": "✓ Sans coercition · Suivi 30 jours inclus · Compte-rendu écrit"
+  }
+}
