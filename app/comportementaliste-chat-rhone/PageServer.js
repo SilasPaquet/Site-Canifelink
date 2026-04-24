@@ -41,7 +41,7 @@ export default function ChatServer() {
 
       {/* PROBLÉMATIQUES */}
       <section className="prob-section" aria-labelledby="prob-chat-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.problems.label}</div>
           <h2 className="section-title" id="prob-chat-title">
             {c.problems.title_line1}
@@ -64,7 +64,8 @@ export default function ChatServer() {
       {/* AVANTAGES VISIO CHAT */}
       <section
         id="avantages-distanciel"
-        style={{ background: "var(--cream-warm)", padding: "88px 52px" }}
+        className="sp"
+        style={{ background: "var(--cream-warm)" }}
         aria-labelledby="dist-cat-title"
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
@@ -77,7 +78,7 @@ export default function ChatServer() {
             {c.distanciel.title_line3}
           </h2>
           <p className="section-sub">{c.distanciel.intro}</p>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", marginTop: "40px" }}>
+          <div className="col2-grid">
             {c.distanciel.items.map((item, i) => (
               <div key={i} style={{ background: "white", borderRadius: "16px", padding: "28px" }}>
                 <span style={{ fontSize: "28px", display: "block", marginBottom: "12px" }}>
@@ -130,7 +131,7 @@ export default function ChatServer() {
 
       {/* TARIFS */}
       <section className="tarifs-section" aria-labelledby="tarifs-chat-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.tarifs.label}</div>
           <h2 className="section-title" id="tarifs-chat-title">
             {c.tarifs.title}
@@ -157,7 +158,7 @@ export default function ChatServer() {
 
       {/* TÉMOIGNAGES */}
       <section className="testi-section" aria-labelledby="testi-cat-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="testi-header">
             <div>
               <div className="label-tag">{c.testimonials.label}</div>
@@ -198,7 +199,7 @@ export default function ChatServer() {
 
       {/* FAQ */}
       <section className="faq-section" aria-labelledby="faq-cat-title">
-        <div className="faq-inner" style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 52px" }}>
+          <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div>
             <div className="label-tag">{c.faq.label}</div>
             <h2 className="section-title" id="faq-cat-title">

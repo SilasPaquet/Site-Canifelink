@@ -49,18 +49,11 @@ export default function AProposServer() {
 
       {/* HISTOIRE */}
       <section
-        style={{ background: "white", padding: "88px 52px" }}
+        className="histoire-section"
         aria-labelledby="histoire-title"
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "72px",
-              alignItems: "start",
-            }}
-          >
+          <div className="histoire-grid">
             <div>
               <div className="label-tag">{c.histoire.label}</div>
               <h2 className="section-title" id="histoire-title">
@@ -107,7 +100,8 @@ export default function AProposServer() {
 
       {/* MÉTHODES & VALEURS */}
       <section
-        style={{ background: "var(--cream-warm)", padding: "88px 52px" }}
+        className="sp"
+        style={{ background: "var(--cream-warm)" }}
         aria-labelledby="valeurs-title"
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
@@ -133,7 +127,8 @@ export default function AProposServer() {
 
       {/* TRIPLE EXPERTISE */}
       <section
-        style={{ background: "var(--teal-deep)", padding: "88px 52px" }}
+        className="sp"
+        style={{ background: "var(--teal-deep)" }}
         aria-labelledby="trois-title"
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
@@ -195,7 +190,8 @@ export default function AProposServer() {
 
       {/* CTA */}
       <section
-        style={{ background: "var(--cream-warm)", padding: "88px 52px", textAlign: "center" }}
+        className="sp"
+        style={{ background: "var(--cream-warm)", textAlign: "center" }}
         aria-labelledby="cta-apropos-title"
       >
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>

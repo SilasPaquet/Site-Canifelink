@@ -41,7 +41,7 @@ export default function ChienServer() {
 
       {/* PROBLÉMATIQUES */}
       <section id="problematiques" className="prob-section" aria-labelledby="prob-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.problems.label}</div>
           <h2 className="section-title" id="prob-title">
             {c.problems.title_line1}
@@ -97,7 +97,7 @@ export default function ChienServer() {
       </section>
 
       {/* ZONE D'INTERVENTION */}
-      <section style={{ background: "white", padding: "88px 52px" }} aria-labelledby="zone-title">
+      <section className="sp" style={{ background: "white" }} aria-labelledby="zone-title">
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.zone.label}</div>
           <h2 className="section-title" id="zone-title">
@@ -105,7 +105,7 @@ export default function ChienServer() {
             <br />
             {c.zone.title_line2}
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", marginTop: "40px" }}>
+          <div className="col2-grid">
             <div style={{ background: "var(--cream)", borderRadius: "16px", padding: "28px", borderLeft: "4px solid var(--teal)" }}>
               <span style={{ fontSize: "28px", display: "block", marginBottom: "12px" }}>
                 {c.zone.presentiel.icon}
@@ -140,7 +140,7 @@ export default function ChienServer() {
 
       {/* TARIFS */}
       <section className="tarifs-section" aria-labelledby="tarifs-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.tarifs.label}</div>
           <h2 className="section-title" id="tarifs-title">
             {c.tarifs.title}
@@ -170,7 +170,7 @@ export default function ChienServer() {
 
       {/* TÉMOIGNAGES */}
       <section className="testi-section" aria-labelledby="testi-dog-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="testi-header">
             <div>
               <div className="label-tag">{c.testimonials.label}</div>
@@ -220,7 +220,7 @@ export default function ChienServer() {
 
       {/* FAQ */}
       <section className="faq-section" aria-labelledby="faq-dog-title">
-        <div className="faq-inner" style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 52px" }}>
+          <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div>
             <div className="label-tag">{c.faq.label}</div>
             <h2 className="section-title" id="faq-dog-title">

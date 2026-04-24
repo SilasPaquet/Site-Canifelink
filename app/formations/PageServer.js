@@ -31,7 +31,7 @@ export default function FormationsServer() {
 
       {/* 2 CIBLES */}
       <div style={{ background: "var(--teal-deep)", padding: 0 }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", maxWidth: "1100px", margin: "0 auto" }}>
+        <div className="cibles-grid">
           <a id="particuliers" href="#catalogue" style={{ padding: "48px 52px", textDecoration: "none", borderRight: "1px solid rgba(255,255,255,.08)", scrollMarginTop: "80px", display: "block" }}>
             <div style={{ fontSize: "36px", marginBottom: "16px" }}>{c.cibles[0].icon}</div>
             <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "22px", fontWeight: 900, color: "white", marginBottom: "10px" }}>{c.cibles[0].title}</h2>
@@ -46,7 +46,7 @@ export default function FormationsServer() {
       </div>
 
       {/* CATALOGUE PARTICULIERS */}
-      <section id="catalogue" className="formation-catalog" aria-labelledby="cat-part-title" style={{ padding: "88px 52px", scrollMarginTop: "80px" }}>
+      <section id="catalogue" className="sp formation-catalog" aria-labelledby="cat-part-title" style={{ scrollMarginTop: "80px" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div className="label-tag">{c.particuliers.label}</div>
           <h2 className="section-title" id="cat-part-title">
@@ -74,7 +74,7 @@ export default function FormationsServer() {
       </section>
 
       {/* CATALOGUE PRO */}
-      <section id="pro-catalog" style={{ background: "var(--cream-warm)", padding: "88px 52px", scrollMarginTop: "80px" }} aria-labelledby="cat-pro-title">
+      <section id="pro-catalog" className="sp" style={{ background: "var(--cream-warm)", scrollMarginTop: "80px" }} aria-labelledby="cat-pro-title">
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div className="label-tag">{c.professionnels.label}</div>
           <h2 className="section-title" id="cat-pro-title">
@@ -98,7 +98,7 @@ export default function FormationsServer() {
               </div>
             ))}
           </div>
-          <div style={{ background: "white", borderRadius: "16px", padding: "32px", marginTop: "32px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", alignItems: "center" }}>
+          <div className="pro-box-grid">
             <div>
               <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: "20px", fontWeight: 700, marginBottom: "10px" }}>{c.professionnels.proBox.title}</h3>
               <p style={{ fontSize: "14px", color: "var(--ink-mid)", lineHeight: 1.7 }}>{c.professionnels.proBox.text}</p>
@@ -112,7 +112,7 @@ export default function FormationsServer() {
 
       {/* TÉMOIGNAGES */}
       <section className="testi-section" aria-labelledby="testi-form-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="testi-header">
             <div>
               <div className="label-tag">{c.testimonials.label}</div>
@@ -142,7 +142,7 @@ export default function FormationsServer() {
       </section>
 
       {/* GARANTIES */}
-      <section style={{ background: "var(--teal-deep)", padding: "88px 52px" }}>
+      <section className="sp" style={{ background: "var(--teal-deep)" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
           <div className="label-tag" style={{ color: "rgba(255,255,255,.4)", justifyContent: "center" }}>
             <span style={{ background: "rgba(255,255,255,.3)" }}></span>
@@ -165,7 +165,7 @@ export default function FormationsServer() {
       </section>
 
       {/* INSCRIPTION — 3 ÉTAPES */}
-      <section style={{ background: "var(--cream-warm)", padding: "88px 52px" }} aria-labelledby="inscription-title">
+      <section className="sp" style={{ background: "var(--cream-warm)" }} aria-labelledby="inscription-title">
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag" style={{ justifyContent: "center" }}>{c.inscription.label}</div>
           <h2 className="section-title" id="inscription-title" style={{ textAlign: "center" }}>
@@ -189,7 +189,7 @@ export default function FormationsServer() {
 
       {/* FAQ */}
       <section className="faq-section" aria-labelledby="faq-form-title">
-        <div className="faq-inner" style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 52px" }}>
+          <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div>
             <div className="label-tag">{c.faq.label}</div>
             <h2 className="section-title" id="faq-form-title">

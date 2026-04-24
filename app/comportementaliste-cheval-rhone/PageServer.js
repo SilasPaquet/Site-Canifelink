@@ -74,7 +74,7 @@ export default function ChevalServer() {
 
       {/* PROBLÉMATIQUES */}
       <section className="prob-section" aria-labelledby="prob-horse-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.problems.label}</div>
           <h2 className="section-title" id="prob-horse-title">
             {c.problems.title_line1}
@@ -97,7 +97,8 @@ export default function ChevalServer() {
       {/* APPROCHE ÉTHOLOGIQUE */}
       <section
         id="approche-equine"
-        style={{ background: "var(--cream-warm)", padding: "88px 52px" }}
+        className="sp"
+        style={{ background: "var(--cream-warm)" }}
         aria-labelledby="ethologie-title"
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
@@ -107,15 +108,7 @@ export default function ChevalServer() {
             <br />
             {c.approche.title_line2}
           </h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "52px",
-              alignItems: "center",
-              marginTop: "40px",
-            }}
-          >
+          <div className="col2-grid-lg">
             <div>
               <p style={{ fontSize: "16px", color: "var(--ink-mid)", lineHeight: 1.8, marginBottom: "20px" }}>
                 {c.approche.p1}
@@ -169,7 +162,7 @@ export default function ChevalServer() {
       </section>
 
       {/* ZONE D'INTERVENTION */}
-      <section style={{ background: "white", padding: "88px 52px" }} aria-labelledby="zone-horse-title">
+      <section className="sp" style={{ background: "white" }} aria-labelledby="zone-horse-title">
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.zone.label}</div>
           <h2 className="section-title" id="zone-horse-title">
@@ -177,7 +170,7 @@ export default function ChevalServer() {
             <br />
             {c.zone.title_line2}
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", marginTop: "40px" }}>
+          <div className="col2-grid">
             <div style={{ background: "var(--cream)", borderRadius: "16px", padding: "28px", borderLeft: "4px solid var(--teal)" }}>
               <span style={{ fontSize: "28px", display: "block", marginBottom: "12px" }}>
                 {c.zone.presentiel.icon}
@@ -206,7 +199,7 @@ export default function ChevalServer() {
 
       {/* TARIFS */}
       <section className="tarifs-section" aria-labelledby="tarifs-horse-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.tarifs.label}</div>
           <h2 className="section-title" id="tarifs-horse-title">
             {c.tarifs.title}
@@ -233,7 +226,7 @@ export default function ChevalServer() {
 
       {/* TÉMOIGNAGES */}
       <section className="testi-section" aria-labelledby="testi-horse-title">
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 52px" }}>
+        <div className="inner-pad" style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="testi-header">
             <div>
               <div className="label-tag">{c.testimonials.label}</div>
@@ -274,7 +267,7 @@ export default function ChevalServer() {
 
       {/* FAQ */}
       <section className="faq-section" aria-labelledby="faq-horse-title">
-        <div className="faq-inner" style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 52px" }}>
+          <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div>
             <div className="label-tag">{c.faq.label}</div>
             <h2 className="section-title" id="faq-horse-title">
