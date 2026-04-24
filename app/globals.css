@@ -655,6 +655,10 @@ footer{background:var(--teal-deep);padding:60px 52px 30px}
   .col2-grid,.col2-grid-lg,.cibles-grid{grid-template-columns:1fr;gap:20px}
   .pro-box-grid{grid-template-columns:1fr;text-align:center}
   .inner-pad{padding-inline:20px}
+  /* Grid classes defined AFTER the first @media block — must be re-declared here to win the cascade */
+  .prob-grid,.tarifs-grid,.distanciel-grid,.ethologie-grid,
+  .formation-cat-grid,.inscription-steps,.values-grid,
+  .blog-list,.rdv-form-grid{grid-template-columns:1fr}
   /* Section class padding reduction */
   .prob-section,.tarifs-section,.consult-section,.distanciel-section,.zone-section,.ethologie-section{padding:60px 24px}
   .diff-section{padding:60px 24px}
