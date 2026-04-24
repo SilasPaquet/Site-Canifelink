@@ -120,7 +120,7 @@ section{padding:88px 52px}
 .species-section{background:var(--cream)}
 .species-intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:52px;flex-wrap:wrap;gap:20px}
 .species-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.species-card{background:white;border-radius:20px;overflow:hidden;border:1.5px solid rgba(42,157,170,.12);transition:transform .3s,box-shadow .3s;cursor:pointer}
+.species-card{background:white;border-radius:20px;overflow:hidden;border:1.5px solid rgba(42,157,170,.12);transition:transform .3s,box-shadow .3s;cursor:pointer;position:relative}
 .species-card:hover{transform:translateY(-6px);box-shadow:0 20px 48px rgba(42,157,170,.18)}
 .species-top{height:190px;position:relative;display:flex;align-items:center;justify-content:center}
 .top-dog{background:linear-gradient(145deg,#E8F6EF,#C8E8D8)}
@@ -139,6 +139,7 @@ section{padding:88px 52px}
 .prob-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
 .ptag{background:var(--teal-pale);color:var(--teal-dark);font-size:11px;font-weight:600;padding:3px 9px;border-radius:50px}
 .species-cta-link{display:inline-flex;align-items:center;gap:6px;color:var(--teal);font-weight:700;font-size:14px;text-decoration:none;border-bottom:2px solid var(--teal-light);padding-bottom:2px;transition:border-color .2s}
+.species-cta-link::after{content:'';position:absolute;inset:0;z-index:1}
 .species-cta-link:hover{border-color:var(--teal)}
 
 /* ── COMMENT ÇA MARCHE ── */
