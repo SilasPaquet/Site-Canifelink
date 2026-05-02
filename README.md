@@ -12,7 +12,7 @@ Projet Next.js (App Router) avec une seule page d'accueil pour presenter une cha
 ## Stack
 
 - Next.js 16
-- React 19
+- React 19  
 - JavaScript
 
 ## Configuration email

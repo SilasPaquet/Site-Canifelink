@@ -1,8 +1,44 @@
 import content from "@/content/blog.json";
 import BlogFilterPosts from "@/app/components/BlogFilterPosts";
+import sql from "@/lib/db";
 
-export default function BlogServer() {
+export default async function BlogServer() {
   const c = content;
+
+  // Chargement des articles depuis la DB (Neon Postgres)
+  let articles = [];
+  let featured = c.featured;
+
+  try {
+    const posts = await sql`SELECT * FROM blog_posts ORDER BY created_at DESC`;
+    const featuredPost = posts.find((p) => p.is_featured);
+    if (featuredPost) {
+      featured = {
+        category: featuredPost.category,
+        catLabel: featuredPost.cat_label,
+        imageUrl: featuredPost.image_url,
+        slug: featuredPost.slug,
+        title: featuredPost.title,
+        excerpt: featuredPost.excerpt,
+        date: featuredPost.date,
+      };
+    }
+    articles = posts
+      .filter((p) => !p.is_featured)
+      .map((p) => ({
+        category: p.category,
+        catLabel: p.cat_label,
+        imageUrl: p.image_url,
+        slug: p.slug,
+        title: p.title,
+        excerpt: p.excerpt,
+        date: p.date,
+        readTime: p.read_time,
+      }));
+  } catch {
+    // Fallback sur le JSON statique si la DB est indisponible
+    articles = c.articles;
+  }
 
   return (
     <>
@@ -22,7 +58,7 @@ export default function BlogServer() {
       </header>
 
       {/* BLOG FILTRES + ARTICLES (client) */}
-      <BlogFilterPosts featured={c.featured} articles={c.articles} />
+      <BlogFilterPosts featured={featured} articles={articles} />
 
       {/* GUIDE GRATUIT */}
       <section

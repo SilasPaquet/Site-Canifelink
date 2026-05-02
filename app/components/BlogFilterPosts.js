@@ -52,73 +52,90 @@ export default function BlogFilterPosts({ featured, articles }) {
           {/* ARTICLE VEDETTE */}
           {showFeatured && (
             <div className="blog-guide-featured" style={{ marginBottom: "40px" }}>
-              <article
-                className="blog-card big"
-                style={{ width: "100%", margin: "0" }}
+              <a
+                href={featured.slug ? `/blog/${featured.slug}` : "#"}
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
               >
-                <div
-                  className="blog-top bg-dog"
-                  style={{ height: "240px", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "80px" }}
+                <article
+                  className="blog-card big"
+                  style={{ width: "100%", margin: "0", cursor: "pointer" }}
                 >
-                  {featured.emoji}
-                </div>
-                <div className="blog-body">
-                  <span className={`blog-cat cat-${featured.category}`}>
-                    {featured.catLabel}
-                  </span>
-                  <h2 className="blog-h" style={{ fontSize: "24px" }}>
-                    {featured.title}
-                  </h2>
-                  <p className="blog-excerpt">{featured.excerpt}</p>
-                  <div className="blog-foot">
-                    <span className="blog-date">{featured.date}</span>
-                    <a
-                      href="/prendre-rendez-vous"
-                      style={{
-                        color: "var(--teal)",
-                        fontWeight: "700",
-                        fontSize: "13px",
-                        textDecoration: "none",
-                      }}
-                    >
-                      Lire l&apos;article → (bientôt disponible)
-                    </a>
+                  {featured.imageUrl ? (
+                    <img
+                      src={featured.imageUrl}
+                      alt={featured.title}
+                      style={{ width: "100%", height: "240px", objectFit: "cover", display: "block" }}
+                    />
+                  ) : (
+                    <div
+                      className="blog-top bg-dog"
+                      style={{ height: "240px", background: "var(--teal-pale)" }}
+                    />
+                  )}
+                  <div className="blog-body">
+                    <span className={`blog-cat cat-${featured.category}`}>
+                      {featured.catLabel}
+                    </span>
+                    <h2 className="blog-h" style={{ fontSize: "24px" }}>
+                      {featured.title}
+                    </h2>
+                    <p className="blog-excerpt">{featured.excerpt}</p>
+                    <div className="blog-foot">
+                      <span className="blog-date">{featured.date}</span>
+                      <span
+                        style={{
+                          color: "var(--teal)",
+                          fontWeight: "700",
+                          fontSize: "13px",
+                        }}
+                      >
+                        Lire l&apos;article →
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </a>
             </div>
           )}
 
           {/* GRILLE D'ARTICLES */}
           <div className="blog-list">
             {visibleArticles.map((article, i) => (
-              <article key={i} className="blog-list-card">
-                <div
-                  style={{
-                    height: "140px",
-                    background: article.bgGradient,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: "64px",
-                  }}
-                >
-                  {article.emoji}
-                </div>
-                <div style={{ padding: "18px" }}>
-                  <span className={`blog-cat cat-${article.category}`}>
-                    {article.catLabel}
-                  </span>
-                  <h3 className="blog-h">{article.title}</h3>
-                  {article.excerpt && (
-                    <p className="blog-excerpt">{article.excerpt}</p>
+              <a
+                key={i}
+                href={article.slug ? `/blog/${article.slug}` : "#"}
+                style={{ textDecoration: "none", color: "inherit", display: "block" }}
+              >
+                <article className="blog-list-card" style={{ cursor: "pointer", height: "100%" }}>
+                  {article.imageUrl ? (
+                    <img
+                      src={article.imageUrl}
+                      alt={article.title}
+                      style={{ width: "100%", height: "140px", objectFit: "cover", display: "block" }}
+                    />
+                  ) : (
+                    <div
+                      style={{
+                        height: "140px",
+                        background: "var(--teal-pale)",
+                      }}
+                    />
                   )}
-                  <div className="blog-foot">
-                    <span className="blog-date">{article.date}</span>
-                    <span className="blog-read">{article.readTime}</span>
+                  <div style={{ padding: "18px" }}>
+                    <span className={`blog-cat cat-${article.category}`}>
+                      {article.catLabel}
+                    </span>
+                    <h3 className="blog-h">{article.title}</h3>
+                    {article.excerpt && (
+                      <p className="blog-excerpt">{article.excerpt}</p>
+                    )}
+                    <div className="blog-foot">
+                      <span className="blog-date">{article.date}</span>
+                      <span className="blog-read">{article.readTime}</span>
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </a>
             ))}
           </div>
         </div>
