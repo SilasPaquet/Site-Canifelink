@@ -15,10 +15,10 @@ const PAGE_HTML = `
     <h1 id="formation-h1">
       Formations<br><em>comportement animal</em><br>pour tous les niveaux
     </h1>
-    <p style="font-size:17px;color:rgba(255,255,255,.75);max-width:480px;line-height:1.75;margin-bottom:32px">
+    <p style="font-size:17px;color:rgba(255,255,255,.75);max-width:480px;line-height:1.75;margin:0 auto 32px">
       Particuliers passionnés ou professionnels de l'animal — comprendre le comportement de votre animal change tout. Transformez votre regard sur vos compagnons.
     </p>
-    <div class="hero-actions">
+    <div class="hero-actions" style="justify-content:center">
       <a href="#catalogue" class="btn-main">Voir le catalogue →</a>
       <a href="#professionnels" class="btn-ghost" style="border-color:rgba(255,255,255,.35)">Formation pro B2B →</a>
     </div>

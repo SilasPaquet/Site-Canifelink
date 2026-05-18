@@ -105,7 +105,7 @@
     "items": [
       {
         "title": "Consultation distanciel",
-        "price": "Sur devis",
+        "price": "95€",
         "duration": "⏱ 1h30 à 2h · Visio",
         "featured": false,
         "includes": [
@@ -117,7 +117,7 @@
       },
       {
         "title": "Consultation présentiel",
-        "price": "Sur devis",
+        "price": "95€",
         "duration": "⏱ 1h30 à 2h · À domicile Rhône 69",
         "featured": true,
         "includes": [

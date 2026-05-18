@@ -185,6 +185,7 @@ section{padding:88px 52px}
 
 /* ── TÉMOIGNAGES ── */
 .testi-section{background:white}
+.testi-section .section-title{text-align:center}
 .testi-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:44px}
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .testi-card{background:var(--cream);border-radius:16px;padding:26px;border:1.5px solid transparent;transition:border-color .2s}
@@ -207,6 +208,7 @@ section{padding:88px 52px}
 
 /* ── FAQ ── */
 .faq-section{background:var(--teal-pale)}
+.faq-section .section-title{text-align:center}
 .faq-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
 .faq-list{display:flex;flex-direction:column;gap:10px}
 .faq-item{background:white;border-radius:12px;overflow:hidden;border:1.5px solid var(--teal-light)}
@@ -403,12 +405,13 @@ footer{background:var(--teal-deep);padding:60px 52px 30px}
 .formations-hero{background:linear-gradient(135deg,#5C2A0E 0%,#A0522D 50%,#C4783A 100%)}
 .service-hero h1{font-size:clamp(28px,4vw,52px);font-weight:900;color:white;margin-bottom:20px}
 .service-hero .hero-sub{font-size:16px;color:rgba(255,255,255,.75);max-width:480px;line-height:1.75;margin-bottom:24px}
+.service-hero .sub{font-size:16px;color:rgba(255,255,255,.75);max-width:480px;line-height:1.75;margin-bottom:24px}
 .service-hero-img-placeholder{width:360px;height:360px;border-radius:20px;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:80px}
 
 /* ── PROBLÉMATIQUES SECTION ── */
 .prob-section{background:var(--cream);padding:80px 52px}
 .prob-section .section-title{text-align:center;margin-bottom:12px}
-.prob-section .section-sub{text-align:center;color:var(--ink-soft);margin-bottom:48px}
+.prob-section .section-sub{text-align:center;color:var(--ink-soft);margin:0 auto 48px}
 .prob-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .prob-card{background:white;border-radius:16px;padding:28px 24px;border:1.5px solid var(--teal-light);transition:all .2s;cursor:default}
 .prob-card:hover{border-color:var(--teal);box-shadow:0 6px 24px rgba(42,157,170,.12);transform:translateY(-2px)}

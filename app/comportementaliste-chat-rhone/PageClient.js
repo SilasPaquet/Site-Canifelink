@@ -27,7 +27,9 @@ const PAGE_HTML = `
       <a href="#avantages-distanciel" class="btn-ghost">Pourquoi la visio pour le chat →</a>
     </div>
   </div>
-  <div class="service-hero-right" aria-hidden="true">🐈</div>
+  <div class="service-hero-right" aria-hidden="true">
+    <img src="/img/maine-coon-table.jpg" alt="" class="service-hero-img-placeholder" style="object-fit:cover;font-size:0" />
+  </div>
 </header>
 
 <!-- PROBLÉMATIQUES -->
@@ -75,8 +77,8 @@ const PAGE_HTML = `
 <section id="avantages-distanciel" style="background:var(--cream-warm);padding:88px 52px" aria-labelledby="dist-cat-title">
   <div style="max-width:900px;margin:0 auto">
     <div class="label-tag">Consultation visio</div>
-    <h2 class="section-title" id="dist-cat-title">Pourquoi la visio<br>est souvent préférable<br>pour le chat</h2>
-    <p class="section-sub">Le chat est un animal territorial très sensible aux modifications de son environnement. Une visite à domicile peut le stresser davantage.</p>
+    <h2 class="section-title" id="dist-cat-title" style="text-align:center">Pourquoi la visio<br>est souvent préférable<br>pour le chat</h2>
+    <p class="section-sub" style="text-align:center;margin:0 auto">Le chat est un animal attaché à son domaine vital très sensible aux modifications de son environnement. Une visite à domicile peut le stresser davantage.</p>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px">
       <div style="background:white;border-radius:16px;padding:28px">
         <span style="font-size:28px;display:block;margin-bottom:12px">🏠</span>
@@ -237,7 +239,7 @@ const PAGE_HTML = `
             Pourquoi la visio est-elle souvent recommandée pour le chat ?
             <span class="faq-icon">+</span>
           </button>
-          <div class="faq-a">Le chat est un animal extrêmement territorial. La présence d'un inconnu chez lui peut le stresser et fausser ses comportements habituels. En visio, il reste dans son environnement sécurisé et se comporte naturellement. De plus, je peux observer son espace de vie (litières, griffoirs, zones de conflit) en vous demandant de filmer ce dont j'ai besoin.</div>
+          <div class="faq-a">Le chat est un animal très attaché à son domaine vital. La présence d'un inconnu chez lui peut le stresser et fausser ses comportements habituels. En visio, il reste dans son environnement sécurisé et se comporte naturellement. De plus, je peux observer son espace de vie (litières, griffoirs, zones de conflit) en vous demandant de filmer ce dont j'ai besoin.</div>
         </div>
 
         <div class="faq-item" role="listitem">

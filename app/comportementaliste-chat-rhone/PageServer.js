@@ -35,7 +35,7 @@ export default function ChatServer() {
           </div>
         </div>
         <div className="service-hero-right" aria-hidden="true">
-          🐈
+          <img src="/img/maine-coon-table.jpg" alt="" className="service-hero-img-placeholder" style={{objectFit:"cover",fontSize:0}} />
         </div>
       </header>
 
@@ -70,14 +70,14 @@ export default function ChatServer() {
       >
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.distanciel.label}</div>
-          <h2 className="section-title" id="dist-cat-title">
+          <h2 className="section-title" id="dist-cat-title" style={{ textAlign: "center" }}>
             {c.distanciel.title_line1}
             <br />
             {c.distanciel.title_line2}
             <br />
             {c.distanciel.title_line3}
           </h2>
-          <p className="section-sub">{c.distanciel.intro}</p>
+          <p className="section-sub" style={{ textAlign: "center", margin: "0 auto" }}>{c.distanciel.intro}</p>
           <div className="col2-grid">
             {c.distanciel.items.map((item, i) => (
               <div key={i} style={{ background: "white", borderRadius: "16px", padding: "28px" }}>

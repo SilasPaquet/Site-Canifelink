@@ -38,7 +38,7 @@ export default function HomePage() {
         <div className="hero-right" aria-hidden="true">
           <div className="portrait-wrap">
             <div className="pc pc-manue">
-              <img src="/mnt/user-data/uploads/Logo_2025_canifelink.png" alt="Manue, comportementaliste CANIFELINK" style={{width:"200%",height:"200%",objectFit:"cover",objectPosition:"top left",transform:"scale(.85) translate(-10%,-10%)"}} />
+              <img src="/img/manue.jpg" alt="Manue, comportementaliste CANIFELINK" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 75%"}} />
               <span className="pc-label">MANUE</span>
             </div>
             <div className="pc pc-dog"><img src="/img/husky.jpg" alt="Chien" style={{width:"100%",height:"100%",objectFit:"cover"}} /><span className="pc-label">CHIEN</span></div>
@@ -137,7 +137,7 @@ export default function HomePage() {
         <div className="about-grid">
           <div style={{position:"relative",display:"flex",justifyContent:"center"}}>
             <div className="manue-portrait">
-              <img src="/mnt/user-data/uploads/Logo_2025_canifelink.png" alt="Manue, comportementaliste certifiée CANIFELINK, Rhône 69" style={{width:"110%",height:"110%",objectFit:"cover",objectPosition:"top left"}} />
+              <img src="/img/manue.jpg" alt="Manue, comportementaliste certifiée CANIFELINK, Rhône 69" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 75%"}} />
             </div>
             <div className="float-bub bub1" aria-hidden="true"><img src="/img/bulldog.jpg" alt="" style={{width:"100%",height:"100%",objectFit:"cover"}} /></div>
             <div className="float-bub bub2" aria-hidden="true"><img src="/img/cheval.jpg" alt="" style={{width:"100%",height:"100%",objectFit:"cover"}} /></div>

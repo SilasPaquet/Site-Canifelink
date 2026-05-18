@@ -22,7 +22,7 @@ const PAGE_HTML = `
   </div>
   <div style="display:flex;justify-content:center;align-items:center">
     <div class="manue-portrait">
-      <span style="font-size:100px">👩‍🦰</span>
+      <img src="/img/manue.jpg" alt="Manue, comportementaliste certifiée CANIFELINK" style="width:100%;height:100%;object-fit:cover;object-position:center 75%" />
     </div>
   </div>
 </header>

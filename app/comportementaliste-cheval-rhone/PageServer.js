@@ -54,7 +54,7 @@ export default function ChevalServer() {
           </div>
         </div>
         <div className="service-hero-right" aria-hidden="true">
-          🐴
+          <img src="/img/chevaux.jpg" alt="" className="service-hero-img-placeholder" style={{objectFit:"cover",fontSize:0}} />
         </div>
       </header>
 
@@ -165,7 +165,7 @@ export default function ChevalServer() {
       <section className="sp" style={{ background: "white" }} aria-labelledby="zone-horse-title">
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div className="label-tag">{c.zone.label}</div>
-          <h2 className="section-title" id="zone-horse-title">
+          <h2 className="section-title" id="zone-horse-title" style={{ textAlign: "center" }}>
             {c.zone.title_line1}
             <br />
             {c.zone.title_line2}

@@ -32,6 +32,7 @@ export default function AProposServer() {
               maxWidth: "480px",
               lineHeight: 1.75,
               marginBottom: "32px",
+              margin: "0 auto 32px",
             }}
           >
             {c.hero.sub}
@@ -42,7 +43,7 @@ export default function AProposServer() {
         </div>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
           <div className="manue-portrait">
-            <span style={{ fontSize: "100px" }}>👩‍🦰</span>
+            <img src="/img/manue.jpg" alt="Manue, comportementaliste certifiée CANIFELINK" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 75%"}} />
           </div>
         </div>
       </header>

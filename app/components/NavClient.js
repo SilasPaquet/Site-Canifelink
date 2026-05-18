@@ -50,14 +50,14 @@ export default function NavClient() {
           <div className="nav-drop">
             <span className="nav-drop-toggle">Formations ▾</span>
             <div className="nav-drop-panel">
-              <Link href="/formations#particuliers">Particuliers</Link>
-              <Link href="/formations#professionnels">Professionnels</Link>
+              <Link href="/formations/particuliers">Particuliers</Link>
+              <Link href="/formations/professionnels">Professionnels</Link>
             </div>
           </div>
 
           <Link href="/a-propos" className="nav-plain-link">À propos</Link>
           <Link href="/blog" className="nav-plain-link">Blog</Link>
-          <a href="tel:+33600000000" className="nav-tel">📞 06 XX XX XX XX</a>
+          <a href="tel:+33677317068" className="nav-tel">📞 06 77 31 70 68</a>
           <Link href="/prendre-rendez-vous" className="nav-cta">📅 Prendre RDV</Link>
         </div>
 
@@ -99,10 +99,10 @@ export default function NavClient() {
           </Link>
 
           <p className="mobile-nav-section">Formations</p>
-          <Link href="/formations#particuliers" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
+          <Link href="/formations/particuliers" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
             Particuliers
           </Link>
-          <Link href="/formations#professionnels" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
+          <Link href="/formations/professionnels" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
             Professionnels
           </Link>
 
@@ -125,7 +125,7 @@ export default function NavClient() {
             📅 Prendre rendez-vous
           </Link>
           <a
-            href="tel:+33600000000"
+            href="tel:+33677317068"
             className="btn-ghost"
             style={{ width: "100%", justifyContent: "center", marginTop: 10 }}
           >

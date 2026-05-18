@@ -51,7 +51,7 @@ export default async function BlogServer() {
             <br />
             <em>{c.hero.h1_line2}</em>
           </h1>
-          <p style={{ fontSize: "17px", color: "rgba(255,255,255,.78)", maxWidth: "580px", lineHeight: 1.8, marginTop: "12px" }}>
+          <p style={{ fontSize: "17px", color: "rgba(255,255,255,.78)", maxWidth: "580px", lineHeight: 1.8, margin: "12px auto 0" }}>
             {c.hero.intro}
           </p>
         </div>

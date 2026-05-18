@@ -52,7 +52,7 @@
     "title_line1": "Pourquoi la visio",
     "title_line2": "est souvent préférable",
     "title_line3": "pour le chat",
-    "intro": "Le chat est un animal territorial très sensible aux modifications de son environnement. Une visite à domicile peut le stresser davantage.",
+    "intro": "Le chat est un animal attaché à son domaine vital, très sensible aux modifications de son environnement. Une visite à domicile peut le stresser davantage.",
     "items": [
       {
         "icon": "🏠",
@@ -117,7 +117,7 @@
     "items": [
       {
         "title": "Consultation distanciel ⭐",
-        "price": "Sur devis",
+        "price": "95€",
         "duration": "⏱ 1h30 à 2h · Visio (recommandé)",
         "featured": true,
         "includes": [
@@ -130,7 +130,7 @@
       },
       {
         "title": "Consultation présentiel",
-        "price": "Sur devis",
+        "price": "95€",
         "duration": "⏱ 1h30 à 2h · À domicile Rhône 69",
         "featured": false,
         "includes": [
@@ -175,7 +175,7 @@
     "items": [
       {
         "q": "Pourquoi la visio est-elle souvent recommandée pour le chat ?",
-        "a": "Le chat est un animal extrêmement territorial. La présence d'un inconnu chez lui peut le stresser et fausser ses comportements habituels. En visio, il reste dans son environnement sécurisé et se comporte naturellement. De plus, je peux observer son espace de vie (litières, griffoirs, zones de conflit) en vous demandant de filmer ce dont j'ai besoin."
+        "a": "Le chat est un animal très attaché à son domaine vital. La présence d'un inconnu chez lui peut le stresser et fausser ses comportements habituels. En visio, il reste dans son environnement sécurisé et se comporte naturellement. De plus, je peux observer son espace de vie (litières, griffoirs, zones de conflit) en vous demandant de filmer ce dont j'ai besoin."
       },
       {
         "q": "Mon chat doit-il avoir consulté un vétérinaire avant ?",

@@ -1,7 +1,7 @@
 import content from "@/content/formations.json";
 import FaqAccordion from "@/app/components/FaqAccordion";
 
-export default function FormationsServer() {
+export default function FormationsParticuliersServer() {
   const c = content;
 
   return (
@@ -18,12 +18,12 @@ export default function FormationsServer() {
             <br /><em>{c.hero.h1_em}</em>
             <br />{c.hero.h1_line3}
           </h1>
-          <p style={{ fontSize: "17px", color: "rgba(255,255,255,.75)", maxWidth: "480px", lineHeight: 1.75, marginBottom: "32px", margin: "0 auto 32px" }}>
+          <p style={{ fontSize: "17px", color: "rgba(255,255,255,.75)", maxWidth: "480px", lineHeight: 1.75, margin: "0 auto 32px" }}>
             {c.hero.sub}
           </p>
           <div className="hero-actions" style={{ justifyContent: "center" }}>
             <a href="#catalogue" className="btn-main">{c.hero.cta_catalogue}</a>
-            <a href="#professionnels" className="btn-ghost" style={{ borderColor: "rgba(255,255,255,.35)" }}>{c.hero.cta_pro}</a>
+            <a href="/formations/professionnels" className="btn-ghost" style={{ borderColor: "rgba(255,255,255,.35)" }}>{c.hero.cta_pro}</a>
           </div>
         </div>
         <div style={{ fontSize: "110px", textAlign: "center", opacity: 0.9, filter: "drop-shadow(0 20px 40px rgba(0,0,0,.3))" }}>🎓</div>
@@ -37,7 +37,7 @@ export default function FormationsServer() {
             <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "22px", fontWeight: 900, color: "white", marginBottom: "10px" }}>{c.cibles[0].title}</h2>
             <p style={{ fontSize: "14px", color: "rgba(255,255,255,.6)", lineHeight: 1.7 }}>{c.cibles[0].text}</p>
           </a>
-          <a id="professionnels" href="#pro-catalog" style={{ padding: "48px 52px", textDecoration: "none", scrollMarginTop: "80px", display: "block" }}>
+          <a href="/formations/professionnels" style={{ padding: "48px 52px", textDecoration: "none", scrollMarginTop: "80px", display: "block" }}>
             <div style={{ fontSize: "36px", marginBottom: "16px" }}>{c.cibles[1].icon}</div>
             <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "22px", fontWeight: 900, color: "white", marginBottom: "10px" }}>{c.cibles[1].title}</h2>
             <p style={{ fontSize: "14px", color: "rgba(255,255,255,.6)", lineHeight: 1.7 }}>{c.cibles[1].text}</p>
@@ -69,43 +69,6 @@ export default function FormationsServer() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CATALOGUE PRO */}
-      <section id="pro-catalog" className="sp" style={{ background: "var(--cream-warm)", scrollMarginTop: "80px" }} aria-labelledby="cat-pro-title">
-        <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-          <div className="label-tag">{c.professionnels.label}</div>
-          <h2 className="section-title" id="cat-pro-title">
-            {c.professionnels.title_line1}
-            <br />{c.professionnels.title_line2}
-          </h2>
-          <p className="section-sub">{c.professionnels.intro}</p>
-          <div className="formation-cat-grid">
-            {c.professionnels.items.map((item, i) => (
-              <div key={i} className="formation-item" style={{ background: "var(--gold-light)", borderColor: "var(--gold)" }}>
-                <span className={`formation-badge ${item.badgeClass}`}>{item.badge}</span>
-                <div>
-                  <h3 className="formation-item-title">{item.title}</h3>
-                  <p className="formation-item-meta">{item.meta}</p>
-                </div>
-                <p style={{ fontSize: "13px", color: "var(--ink-soft)", lineHeight: 1.65 }}>{item.desc}</p>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                  <div className="formation-item-price" style={{ color: "var(--gold)" }}>{item.price}</div>
-                  <a href="/prendre-rendez-vous" className="btn-teal" style={{ marginTop: 0, padding: "10px 20px", fontSize: "13px" }}>{item.cta}</a>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="pro-box-grid">
-            <div>
-              <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: "20px", fontWeight: 700, marginBottom: "10px" }}>{c.professionnels.proBox.title}</h3>
-              <p style={{ fontSize: "14px", color: "var(--ink-mid)", lineHeight: 1.7 }}>{c.professionnels.proBox.text}</p>
-            </div>
-            <div style={{ textAlign: "center" }}>
-              <a href="/prendre-rendez-vous" className="btn-teal">{c.professionnels.proBox.cta}</a>
-            </div>
           </div>
         </div>
       </section>
@@ -189,7 +152,7 @@ export default function FormationsServer() {
 
       {/* FAQ */}
       <section className="faq-section" aria-labelledby="faq-form-title">
-          <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
+        <div className="faq-inner inner-pad" style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <div>
             <div className="label-tag">{c.faq.label}</div>
             <h2 className="section-title" id="faq-form-title">
@@ -208,7 +171,7 @@ export default function FormationsServer() {
             </ul>
             <a href="/prendre-rendez-vous" className="btn-white">{c.faq.ctaBtn}</a>
             <a
-              href="https://wa.me/33600000000?text=Bonjour%20CANIFELINK%2C%20je%20voudrais%20des%20informations%20sur%20les%20formations"
+              href="https://wa.me/33677317068?text=Bonjour%20CANIFELINK%2C%20je%20voudrais%20des%20informations%20sur%20les%20formations"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp"

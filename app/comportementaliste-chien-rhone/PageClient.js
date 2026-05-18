@@ -47,7 +47,9 @@ const PAGE_HTML = `
       <a href="#problematiques" class="btn-ghost">Voir les problématiques →</a>
     </div>
   </div>
-  <div class="service-hero-right" aria-hidden="true">🐕</div>
+  <div class="service-hero-right" aria-hidden="true">
+    <img src="/img/border.jpg" alt="" class="service-hero-img-placeholder" style="object-fit:cover;font-size:0" />
+  </div>
 </header>
 
 <!-- PROBLÉMATIQUES -->
@@ -132,7 +134,7 @@ const PAGE_HTML = `
 <section style="background:white;padding:88px 52px" aria-labelledby="zone-title">
   <div style="max-width:900px;margin:0 auto">
     <div class="label-tag">Zone d'intervention</div>
-    <h2 class="section-title" id="zone-title">Présentiel Rhône<br>&amp; distanciel France entière</h2>
+    <h2 class="section-title" id="zone-title" style="text-align:center">Présentiel Rhône<br>&amp; distanciel France entière</h2>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px">
       <div style="background:var(--cream);border-radius:16px;padding:28px;border-left:4px solid var(--teal)">
         <span style="font-size:28px;display:block;margin-bottom:12px">📍</span>

@@ -262,10 +262,10 @@
     "intro": "Formations en ligne et en présentiel pour les particuliers passionnés comme pour les professionnels animaliers. Devenir autonome dans la lecture du comportement, c'est possible.",
     "cta": "Découvrir toutes les formations →",
     "items": [
-      { "title": "Comprendre son chien en 5 modules", "meta": "🐕 En ligne · 5h · Tous niveaux", "price": "149 €" },
-      { "title": "Communication féline — bases & avancé", "meta": "🐈 En ligne + live · 8h · Tous niveaux", "price": "199 €" },
-      { "title": "Éthologie équine appliquée", "meta": "🐴 Présentiel Rhône · 1 journée · Cavaliers", "price": "280 €" },
-      { "title": "Formation Pro — Refuges & vétérinaires", "meta": "🏥 Intra-entreprise · Sur devis · B2B", "price": "Sur devis", "gold": true }
+      { "title": "Comprendre son chien en 5 modules", "meta": "🐕 En ligne · 5h · Tous niveaux", "price": "" },
+      { "title": "Communication féline — bases & avancé", "meta": "🐈 En ligne + live · 8h · Tous niveaux", "price": "" },
+      { "title": "Éthologie équine appliquée", "meta": "🐴 Présentiel Rhône · 1 journée · Cavaliers", "price": "" },
+      { "title": "Formation Pro — Refuges & vétérinaires", "meta": "🏥 Intra-entreprise · Sur devis · B2B", "price": "", "gold": true }
     ]
   },
   "blog": {
