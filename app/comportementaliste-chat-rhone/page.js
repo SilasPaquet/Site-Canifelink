@@ -10,6 +10,9 @@ export const metadata = {
     "chat urine hors litière Lyon",
     "chat agressif Rhône",
     "comportement chat en ligne",
+    "comportementaliste chat Craponne",
+    "comportementaliste félin Lentilly",
+    "comportementaliste chat Marcy-l'Étoile",
   ],
   alternates: {
     canonical: "https://www.canifelink.fr/comportementaliste-chat-rhone",

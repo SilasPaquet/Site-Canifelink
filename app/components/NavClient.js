@@ -56,6 +56,7 @@ export default function NavClient() {
           </div>
 
           <Link href="/a-propos" className="nav-plain-link">À propos</Link>
+          <Link href="/tarifs" className="nav-plain-link">Tarifs</Link>
           <Link href="/blog" className="nav-plain-link">Blog</Link>
           <a href="tel:+33677317068" className="nav-tel">📞 06 77 31 70 68</a>
           <Link href="/prendre-rendez-vous" className="nav-cta">📅 Prendre RDV</Link>
@@ -112,6 +113,9 @@ export default function NavClient() {
           </Link>
           <Link href="/blog" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
             Blog &amp; ressources
+          </Link>
+          <Link href="/tarifs" className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
+            Tarifs
           </Link>
         </div>
 

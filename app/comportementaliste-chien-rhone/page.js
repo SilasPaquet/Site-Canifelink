@@ -10,6 +10,9 @@ export const metadata = {
     "éducateur canin Lyon",
     "chien agressif Lyon",
     "anxiété chien Rhône",
+    "comportementaliste chien Craponne",
+    "comportementaliste chien Lentilly",
+    "comportementaliste chien Marcy-l'Étoile",
   ],
   alternates: {
     canonical: "https://www.canifelink.fr/comportementaliste-chien-rhone",

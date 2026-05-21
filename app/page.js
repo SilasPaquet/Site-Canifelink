@@ -1,8 +1,34 @@
 import FaqAccordion from "@/app/components/FaqAccordion";
 import content from "@/content/home.json";
+import sql from "@/lib/db";
 
-export default function HomePage() {
+const CATEGORY_CLASS = { chien: "cat-dog", chat: "cat-cat", cheval: "cat-horse", guides: "cat-guides" };
+
+export default async function HomePage() {
   const c = content;
+
+  // Fetch latest 3 articles from DB for the blog preview
+  let blogPosts = null;
+  try {
+    const rows = await sql`SELECT slug, title, excerpt, category, cat_label, image_url, date, read_time FROM blog_posts ORDER BY created_at DESC LIMIT 3`;
+    if (rows.length > 0) {
+      blogPosts = rows.map((p, i) => ({
+        slug: p.slug,
+        img: p.image_url || null,
+        alt: p.title,
+        cat: p.cat_label,
+        catClass: CATEGORY_CLASS[p.category] || "cat-dog",
+        title: p.title,
+        excerpt: p.excerpt,
+        date: p.date,
+        readTime: p.read_time || "Lire →",
+        big: i === 0,
+      }));
+    }
+  } catch {
+    // DB unavailable — fallback to static JSON below
+  }
+  const blogItems = blogPosts ?? c.blog.items;
 
   // badge mapping for species cards
   const badgeClass = { dog: "badge-dog", cat: "badge-cat", horse: "badge-niche" };
@@ -290,19 +316,24 @@ export default function HomePage() {
           <a href="/blog" style={{color:"var(--teal)",fontWeight:700,fontSize:"14px",textDecoration:"none"}}>Tous les articles →</a>
         </div>
         <div className="blog-grid">
-          {c.blog.items.map((post, i) => (
-            <article key={i} className={`blog-card${post.big ? " big" : ""}`}>
-              <div className={`blog-top ${post.bgClass}`}><img src={post.img} alt={post.alt} style={{width:"100%",height:"100%",objectFit:"cover"}} /></div>
-              <div className="blog-body">
-                <span className={`blog-cat ${post.catClass}`}>{post.cat}</span>
-                <h3 className="blog-h">{post.title}</h3>
-                {post.excerpt && <p className="blog-excerpt">{post.excerpt}</p>}
-                <div className="blog-foot">
-                  <span className="blog-date">{post.date}</span>
-                  <span className="blog-read">{post.readTime}</span>
+          {blogItems.map((post, i) => (
+            <a key={i} href={post.slug ? `/blog/${post.slug}` : "/blog"} style={{textDecoration:"none",color:"inherit",display:"block"}}>
+              <article className={`blog-card${post.big ? " big" : ""}`} style={{cursor:"pointer"}}>
+                {post.img
+                  ? <div className="blog-top"><img src={post.img} alt={post.alt} style={{width:"100%",height:"100%",objectFit:"cover"}} /></div>
+                  : <div className={`blog-top ${post.bgClass || ""}`}><img src={post.img || ""} alt={post.alt} style={{width:"100%",height:"100%",objectFit:"cover"}} /></div>
+                }
+                <div className="blog-body">
+                  <span className={`blog-cat ${post.catClass}`}>{post.cat}</span>
+                  <h3 className="blog-h">{post.title}</h3>
+                  {post.excerpt && <p className="blog-excerpt">{post.excerpt}</p>}
+                  <div className="blog-foot">
+                    <span className="blog-date">{post.date}</span>
+                    <span className="blog-read">{post.readTime}</span>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </a>
           ))}
         </div>
       </section>

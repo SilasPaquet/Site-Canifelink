@@ -251,6 +251,7 @@ export default function ChatServer() {
             </a>
           </div>
           <p className="cta-guarantee">{c.ctaFinal.guarantee}</p>
+          <p className="zone-seo">Comportementaliste chat en présentiel : Lyon, Craponne, Lentilly, Marcy-l'Étoile et l'ensemble du Rhône (69). Visio disponible pour toute la France et la francophonie.</p>
         </div>
       </section>
     </>

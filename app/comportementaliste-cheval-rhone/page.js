@@ -10,6 +10,9 @@ export const metadata = {
     "éthologie équine Rhône",
     "cheval peureux comportementaliste",
     "relation cavalier cheval Auvergne-Rhône-Alpes",
+    "comportementaliste cheval Craponne",
+    "comportementaliste équin Lentilly",
+    "éthologie équine Marcy-l'Étoile",
   ],
   alternates: {
     canonical: "https://www.canifelink.fr/comportementaliste-cheval-rhone",

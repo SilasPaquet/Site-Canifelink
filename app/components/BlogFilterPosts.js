@@ -13,7 +13,7 @@ const CATEGORIES = [
 export default function BlogFilterPosts({ featured, articles }) {
   const [active, setActive] = useState("all");
 
-  const showFeatured = active === "all" || active === featured.category;
+  const showFeatured = featured && (active === "all" || active === featured.category);
   const visibleArticles = articles.filter(
     (a) => active === "all" || a.category === active
   );

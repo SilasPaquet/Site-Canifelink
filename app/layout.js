@@ -17,6 +17,9 @@ export const metadata = {
     "éducateur canin Lyon",
     "comportementaliste félin Lyon",
     "éthologie équine",
+    "comportementaliste Craponne",
+    "comportementaliste Lentilly",
+    "comportementaliste Marcy-l'Étoile",
     "CANIFELINK",
   ],
   authors: [{ name: "CANIFELINK" }],
@@ -74,6 +77,10 @@ const JSON_LD = `
       "areaServed": [
         {"@type": "AdministrativeArea", "name": "Rhône"},
         {"@type": "AdministrativeArea", "name": "Auvergne-Rhône-Alpes"},
+        {"@type": "City", "name": "Lyon"},
+        {"@type": "City", "name": "Craponne"},
+        {"@type": "City", "name": "Lentilly"},
+        {"@type": "City", "name": "Marcy-l'Étoile"},
         {"@type": "Country", "name": "France"},
         {"@type": "Country", "name": "Belgique"},
         {"@type": "Country", "name": "Suisse"}

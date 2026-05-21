@@ -1,5 +1,52 @@
 import content from "@/content/a-propos.json";
 
+const CV_BLOCS_HTML = `
+<div class="cv-bloc">
+  <div class="cv-bloc-head"><div class="cv-bloc-icon">🎓</div><p class="cv-bloc-title">Diplômes &amp; certifications universitaires</p></div>
+  <div class="cv-entry"><span class="cv-entry-when">2014</span><div class="cv-entry-body"><p class="cv-entry-title">Licence de psychologie — Travail &amp; Intervention psychologique</p><p class="cv-entry-detail">Université de Clermont-Ferrand</p><span class="cv-tag cv-tag-blue">Diplôme</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2015</span><div class="cv-entry-body"><p class="cv-entry-title">DU Éthologie appliquée</p><p class="cv-entry-detail">Université de Rennes 1</p><span class="cv-tag cv-tag-blue">Diplôme universitaire</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2020</span><div class="cv-entry-body"><p class="cv-entry-title">The Truth About Cats and Dogs</p><p class="cv-entry-detail">University of Edinburgh</p><span class="cv-tag cv-tag-blue">Certificat universitaire</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2021</span><div class="cv-entry-body"><p class="cv-entry-title">Animal &amp; Society</p><p class="cv-entry-detail">University of Colorado Boulder</p><span class="cv-tag cv-tag-blue">Certificat universitaire</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2021</span><div class="cv-entry-body"><p class="cv-entry-title">Émotion et cognition chez le chien</p><p class="cv-entry-detail">Duke University</p><span class="cv-tag cv-tag-blue">Certificat universitaire</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2022</span><div class="cv-entry-body"><p class="cv-entry-title">Horse Care</p><p class="cv-entry-detail">University of Florida</p><span class="cv-tag cv-tag-blue">Certificat universitaire</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2026</span><div class="cv-entry-body"><p class="cv-entry-title">Animal Welfare in the Clinic</p><p class="cv-entry-detail">University of Edinburgh</p><span class="cv-tag cv-tag-blue">Certificat universitaire</span></div></div>
+</div>
+
+<div class="cv-bloc">
+  <div class="cv-bloc-head"><div class="cv-bloc-icon">✅</div><p class="cv-bloc-title">Certifications professionnelles</p></div>
+  <div class="cv-two-col">
+    <div class="cv-entry"><span class="cv-entry-when">2019</span><div class="cv-entry-body"><p class="cv-entry-title">ACACED Chat</p><span class="cv-tag cv-tag-green">Certification</span></div></div>
+    <div class="cv-entry"><span class="cv-entry-when">2020</span><div class="cv-entry-body"><p class="cv-entry-title">ACACED Chien &amp; NAC</p><span class="cv-tag cv-tag-green">Certification</span></div></div>
+    <div class="cv-entry"><span class="cv-entry-when">2020</span><div class="cv-entry-body"><p class="cv-entry-title">TAV</p><p class="cv-entry-detail">Transport d'animaux vivants</p><span class="cv-tag cv-tag-green">Certification</span></div></div>
+    <div class="cv-entry"><span class="cv-entry-when">2021</span><div class="cv-entry-body"><p class="cv-entry-title">IAABC</p><p class="cv-entry-detail">Membre associée internationale</p><span class="cv-tag cv-tag-green">Certification</span></div></div>
+    <div class="cv-entry"><span class="cv-entry-when">2021</span><div class="cv-entry-body"><p class="cv-entry-title">FCA 1</p><p class="cv-entry-detail">Formation comportementaliste animalier</p><span class="cv-tag cv-tag-green">Certification</span></div></div>
+  </div>
+</div>
+
+<div class="cv-bloc">
+  <div class="cv-bloc-head"><div class="cv-bloc-icon">💼</div><p class="cv-bloc-title">Expériences professionnelles</p></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 2022</span><div class="cv-entry-body"><p class="cv-entry-title">Référente FCA</p><p class="cv-entry-detail">Formation comportementaliste animalier</p><span class="cv-tag cv-tag-teal">Poste actuel</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 2023</span><div class="cv-entry-body"><p class="cv-entry-title">Référente du module félin — ANIMHO</p><p class="cv-entry-detail">Formatrice &amp; référente pédagogique au sein de l'organisme</p><span class="cv-tag cv-tag-teal">Poste actuel</span></div></div>
+</div>
+
+<div class="cv-bloc">
+  <div class="cv-bloc-head"><div class="cv-bloc-icon">📚</div><p class="cv-bloc-title">Formations spécialisées</p></div>
+  <div class="cv-entry"><span class="cv-entry-when">2021</span><div class="cv-entry-body"><p class="cv-entry-title">Comportementaliste félin, canin &amp; équin — ANIMHO</p><p class="cv-entry-detail">600 h + mémoire professionnel</p><span class="cv-tag cv-tag-purple">Formation longue</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2024</span><div class="cv-entry-body"><p class="cv-entry-title">Conditionnement classique &amp; renforcement</p><p class="cv-entry-detail">Clio Marshall</p><span class="cv-tag cv-tag-purple">Formation</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2025–2026</span><div class="cv-entry-body"><p class="cv-entry-title">Calming Signals &amp; Scent Work</p><p class="cv-entry-detail">Rachael Draaisma</p><span class="cv-tag cv-tag-purple">Formation continue</span></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">2025</span><div class="cv-entry-body"><p class="cv-entry-title">Holistic Horsemanship</p><p class="cv-entry-detail">Evan Delassalle</p><span class="cv-tag cv-tag-purple">Formation</span></div></div>
+</div>
+
+<div class="cv-bloc">
+  <div class="cv-bloc-head"><div class="cv-bloc-icon">🐾</div><p class="cv-bloc-title">Vie avec les animaux — le terrain avant tout</p></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 1983</span><div class="cv-entry-body"><p class="cv-entry-title">Manipulation des chevaux &amp; équitation</p><p class="cv-entry-detail">Ferme, haras et centres équestres</p></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 1987</span><div class="cv-entry-body"><p class="cv-entry-title">Éducation canine avec l'agility</p></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">1989–1993</span><div class="cv-entry-body"><p class="cv-entry-title">Élevage canin</p></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 1997</span><div class="cv-entry-body"><p class="cv-entry-title">Management transverse &amp; direct</p></div></div>
+  <div class="cv-entry"><span class="cv-entry-when">depuis 2018</span><div class="cv-entry-body"><p class="cv-entry-title">Élevage félin</p><p class="cv-entry-detail">Maine Coons — Maceo's Gône's</p></div></div>
+</div>
+`;
+
 export default function AProposServer() {
   const c = content;
 
@@ -96,6 +143,19 @@ export default function AProposServer() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* MON PARCOURS */}
+      <section className="sp" style={{ background: "var(--teal-pale)" }} aria-labelledby="parcours-cv-title">
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <div className="label-tag">Diplômes · Certifications · Expériences</div>
+          <h2 className="section-title" id="parcours-cv-title" style={{ marginBottom: "36px" }}>
+            Mon parcours
+            <br />
+            <em>en détail</em>
+          </h2>
+          <div dangerouslySetInnerHTML={{ __html: CV_BLOCS_HTML }} />
         </div>
       </section>
 

@@ -7,7 +7,7 @@ export default async function BlogServer() {
 
   // Chargement des articles depuis la DB (Neon Postgres)
   let articles = [];
-  let featured = c.featured;
+  let featured = null;
 
   try {
     const posts = await sql`SELECT * FROM blog_posts ORDER BY created_at DESC`;
