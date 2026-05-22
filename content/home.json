@@ -160,29 +160,29 @@
     "title_line2": "à CANIFELINK",
     "items": [
       {
-        "pill": "Chien",
+        "pill": "Chien & Chat",
         "pillClass": "pill-dog",
-        "text": "Notre Border Collie avait développé une agressivité envers les inconnus qui rendait nos promenades impossibles. Après deux séances, on comprend enfin ce qu'il vit — et lui va tellement mieux.",
-        "author": "Sophie & Thomas R.",
-        "loc": "Lyon 3e · Présentiel",
+        "text": "Emmanuelle a gardé notre chat à 2 reprises (dont une fois pendant 3 semaines) et notre chien une fois. Je ne peux que recommander ses services ! Elle envoie des photos et des vidéos régulièrement et est très arrangeante. C'est une personne très gentille qui, cela se voit au premier contact, adore les animaux.",
+        "author": "Anthony D.",
+        "loc": "Google · 5/5",
         "stars": 5,
         "featured": true
       },
       {
-        "pill": "Chat",
+        "pill": "Comportement",
         "pillClass": "pill-cat",
-        "text": "Mon chat urinait partout depuis des mois. En visio, on a identifié la cause en 45 min. Deux semaines plus tard, problème résolu. C'est bluffant.",
-        "author": "Claire D.",
-        "loc": "Bordeaux · Distanciel",
+        "text": "Excellente expérience auprès d'Emmanuelle, autant pour la pension que pour ses précieux conseils de comportementaliste, qui nous ont été d'une grande aide ! Je recommande aveuglément !",
+        "author": "Delphine D.",
+        "loc": "Google · 5/5",
         "stars": 5,
         "featured": false
       },
       {
-        "pill": "Cheval",
-        "pillClass": "pill-horse",
-        "text": "Je cherchais quelqu'un qui comprenne vraiment l'éthologie équine. CANIFELINK, c'est une approche totalement différente de l'équitation classique. Ma jument est transformée.",
-        "author": "Aurélie F.",
-        "loc": "Ain · Distanciel",
+        "pill": "Chien",
+        "pillClass": "pill-dog",
+        "text": "Bonne transformation sur mon beagle grâce à Emmanuelle qui avait les bonnes clés pour gérer cela. Merci à elle encore une fois.",
+        "author": "Alicia G.",
+        "loc": "Google · 5/5",
         "stars": 5,
         "featured": false
       }

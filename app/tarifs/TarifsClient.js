@@ -35,6 +35,7 @@ const PAGE_HTML = `
     <button class="pill-btn" data-target="part2">🏢 B2B / Pros</button>
     <button class="pill-btn" data-target="part3">📖 Formations particuliers</button>
     <button class="pill-btn" data-target="part4">🎓 Formations pros</button>
+    <button class="pill-btn" data-target="petsitting">🐾 Pet-Sitting</button>
     <button class="pill-btn" data-target="part5">🤝 Mentoring</button>
   </div>
 </div>
@@ -583,6 +584,134 @@ const PAGE_HTML = `
       </div>
     </div>
   </div>
+
+  <!-- ══ FORMATION PET-SITTING ══ -->
+  <div id="petsitting" style="margin-top:48px;padding-top:48px;border-top:2px solid var(--border);scroll-margin-top:130px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+      <div class="label-tag" style="margin-bottom:0">Formation spécialisée</div>
+      <span style="background:var(--teal);color:white;font-size:10px;font-weight:800;padding:3px 12px;border-radius:50px;letter-spacing:.08em;text-transform:uppercase">Nouveau</span>
+    </div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:32px;font-weight:900;color:var(--ink);margin-bottom:10px">Formation Pet-Sitting Comportemental</h3>
+    <p style="font-size:16px;color:var(--ink-soft);max-width:640px;line-height:1.75;margin-bottom:32px">Vous êtes pet-sitter ou vous souhaitez le devenir. Cette formation vous donne les clés comportementales pour accueillir et gérer sereinement les chiens, chats et chevaux confiés — et vous démarquer sur un marché qui demande de plus en plus de compétences sérieuses.</p>
+
+    <div style="background:linear-gradient(135deg,var(--teal-deep) 0%,#1A6070 60%,var(--teal) 100%);border-radius:20px;padding:36px;margin-bottom:28px;position:relative;overflow:hidden">
+      <div style="position:absolute;top:-60px;right:-60px;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.05)"></div>
+      <div style="position:absolute;bottom:-40px;left:30%;width:180px;height:180px;border-radius:50%;background:rgba(42,157,170,.25)"></div>
+      <div style="position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:start">
+        <div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">
+            <span style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);color:white;font-size:11px;font-weight:600;padding:4px 12px;border-radius:50px">🐕 Chien</span>
+            <span style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);color:white;font-size:11px;font-weight:600;padding:4px 12px;border-radius:50px">🐈 Chat</span>
+            <span style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);color:white;font-size:11px;font-weight:600;padding:4px 12px;border-radius:50px">🐴 Équin</span>
+            <span style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);color:white;font-size:11px;font-weight:600;padding:4px 12px;border-radius:50px">💻 Visio + stage présentiel en option</span>
+          </div>
+          <div style="font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:white;margin-bottom:6px">La formation complète pour pet-sitters</div>
+          <div style="font-size:14px;color:rgba(255,255,255,.65);line-height:1.7;margin-bottom:24px">5 modules visio · ~10h · Débutants &amp; pet-sitters en activité<br>Comprendre les comportements, sécuriser les gardes, gérer les imprévus</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <div style="background:rgba(255,255,255,.08);border-radius:12px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px">Module 1</div>
+              <div style="font-size:13px;color:white;font-weight:600">Comportement canin en garde</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.45);margin-top:2px">2h30 visio</div>
+            </div>
+            <div style="background:rgba(255,255,255,.08);border-radius:12px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px">Module 2</div>
+              <div style="font-size:13px;color:white;font-weight:600">Comportement félin en garde</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.45);margin-top:2px">2h30 visio</div>
+            </div>
+            <div style="background:rgba(255,255,255,.08);border-radius:12px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px">Module 3</div>
+              <div style="font-size:13px;color:white;font-weight:600">Notions équines pour pet-sitter</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.45);margin-top:2px">2h visio</div>
+            </div>
+            <div style="background:rgba(255,255,255,.08);border-radius:12px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px">Module 4</div>
+              <div style="font-size:13px;color:white;font-weight:600">Urgences comportementales &amp; sécurité</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.45);margin-top:2px">2h visio</div>
+            </div>
+            <div style="background:rgba(255,255,255,.08);border-radius:12px;padding:14px 16px;grid-column:1/-1">
+              <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px">Module 5</div>
+              <div style="font-size:13px;color:white;font-weight:600">Organisation pratique · Accueil, contrat, bien-être en garde</div>
+              <div style="font-size:11px;color:rgba(255,255,255,.45);margin-top:2px">1h30 visio</div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;flex-shrink:0;min-width:160px">
+          <div style="font-size:11px;font-weight:700;color:rgba(255,255,255,.4);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px">Formation complète</div>
+          <div style="font-family:'Playfair Display',serif;font-size:52px;font-weight:900;color:var(--gold);line-height:1">349 €</div>
+          <div style="font-size:11px;color:rgba(255,255,255,.35);margin-bottom:16px">5 modules visio · ~10h</div>
+          <a href="mailto:contact@canifelink.fr?subject=Formation Pet-Sitting CANIFELINK" style="display:block;background:white;color:var(--teal-dark);padding:12px 20px;border-radius:50px;font-weight:800;font-size:14px;text-decoration:none;font-family:'Nunito',sans-serif;margin-bottom:8px">Je m'inscris →</a>
+          <div style="font-size:11px;color:rgba(255,255,255,.3)">Réponse sous 24h</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="g3">
+      <div class="card">
+        <div class="card-head" style="background:var(--teal-pale)">
+          <span class="card-tag tag-teal">Débutants</span>
+          <div class="card-name">Je me lance dans le pet-sitting</div>
+          <div class="card-mode">0 expérience · Formation complète de A à Z</div>
+        </div>
+        <div class="card-body">
+          <div class="price-big">349 €</div>
+          <div class="price-note">5 modules visio · ~10h · Accès replay 6 mois</div>
+          <ul class="incl">
+            <li><span class="ck">✓</span>Les 5 modules complets (chien, chat, équin, urgences, pratique)</li>
+            <li><span class="ck">✓</span>Supports PDF &amp; fiches mémo par espèce</li>
+            <li><span class="ck">✓</span>Modèles de contrats &amp; fiches d'accueil</li>
+            <li><span class="ck">✓</span>Accès replay 6 mois</li>
+            <li><span class="ck">✓</span>Attestation de formation CANIFELINK</li>
+            <li><span class="ck">✓</span>1 session Q&amp;R de groupe incluse</li>
+          </ul>
+          <a href="mailto:contact@canifelink.fr?subject=Formation Pet-Sitting Débutant" class="btn-card">Je m'inscris →</a>
+        </div>
+      </div>
+      <div class="card featured">
+        <div class="card-head" style="background:var(--teal)">
+          <div class="ribbon" style="background:white;color:var(--teal)">Mise à niveau</div>
+          <div class="card-name" style="color:white">Pet-sitter en activité</div>
+          <div class="card-mode" style="color:rgba(255,255,255,.7)">Déjà en activité · Modules ciblés</div>
+        </div>
+        <div class="card-body">
+          <div class="price-big">249 €</div>
+          <div class="price-note">3 modules clés · ~6h · Accès replay 6 mois</div>
+          <ul class="incl">
+            <li><span class="ck">✓</span>Module 3 — Notions équines pour pet-sitter</li>
+            <li><span class="ck">✓</span>Module 4 — Urgences comportementales &amp; sécurité</li>
+            <li><span class="ck">✓</span>Module 5 — Organisation pratique avancée</li>
+            <li><span class="ck">✓</span>Fiches mémo par espèce</li>
+            <li><span class="ck">✓</span>Attestation de formation CANIFELINK</li>
+          </ul>
+          <a href="mailto:contact@canifelink.fr?subject=Formation Pet-Sitting Mise à niveau" class="btn-card">Je m'inscris →</a>
+        </div>
+      </div>
+      <div class="card premium">
+        <div class="card-head" style="background:var(--gold-light)">
+          <div class="ribbon ribbon-gold">⭐ Premium</div>
+          <div class="card-name">Formation + Stage présentiel</div>
+          <div class="card-mode">Visio + 1 jour en Rhône · Mise en pratique</div>
+        </div>
+        <div class="card-body">
+          <div class="price-big" style="color:var(--gold)">499 €</div>
+          <div class="price-note">Formation complète visio + 1 journée présentiel Rhône · ≤ 8 participants</div>
+          <ul class="incl">
+            <li><span class="ck">✓</span>Les 5 modules visio complets</li>
+            <li><span class="ck">✓</span>1 journée stage présentiel en Rhône (69)</li>
+            <li><span class="ck">✓</span>Mises en situation réelles sur les 3 espèces</li>
+            <li><span class="ck">✓</span>Observations comportementales en direct</li>
+            <li><span class="ck">✓</span>Attestation de stage + formation CANIFELINK</li>
+            <li><span class="ck">✓</span>Accès replay 12 mois</li>
+          </ul>
+          <a href="mailto:contact@canifelink.fr?subject=Formation Pet-Sitting Premium avec stage" class="btn-card" style="background:var(--gold)">Réserver ma place →</a>
+          <div style="margin-top:10px;font-size:11px;color:var(--ink-soft);text-align:center">Places limitées · Dates sur demande</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note" style="margin-top:20px">
+      📋 <strong>Complément réglementaire :</strong> Cette formation comportementale est complémentaire aux certifications obligatoires (ACACED). Elle ne s'y substitue pas mais vous apporte la maîtrise pratique du comportement animal qui fait la différence dans l'exercice quotidien du pet-sitting. Je peux vous orienter vers les organismes habilités pour l'ACACED si nécessaire.
+    </div>
+  </div>
 </section>
 
 
@@ -747,7 +876,7 @@ const PAGE_HTML = `
 
 export default function TarifsClient() {
   useEffect(() => {
-    const sections = ["part1", "part2", "part3", "part4", "part5"];
+    const sections = ["part1", "part2", "part3", "part4", "petsitting", "part5"];
     const buttons = document.querySelectorAll(".pill-btn");
 
     const scrollToSection = (id) => {
