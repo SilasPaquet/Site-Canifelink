@@ -151,7 +151,7 @@
   "stats": [
     { "num": "3", "label": "Espèces accompagnées" },
     { "num": "+500", "label": "Consultations réalisées" },
-    { "num": "4,9⭐", "label": "Note moyenne (120 avis)" },
+    { "num": "4,9⭐", "label": "Note moyenne" },
     { "num": "100%", "label": "Méthodes bienveillantes" }
   ],
   "testimonials": {

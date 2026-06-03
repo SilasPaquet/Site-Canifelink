@@ -232,7 +232,7 @@ export default async function HomePage() {
         <div style={{textAlign:"center",marginTop:"36px"}}>
           <a href="https://www.google.com/search?q=CANIFELINK+avis" target="_blank" rel="noopener noreferrer" className="google-badge">
             <span className="google-g">G</span>
-            <span>Voir nos 120+ avis Google</span>
+            <span>Voir nos avis Google</span>
             <span style={{color:"var(--gold)"}}>★★★★★ 4,9</span>
           </a>
         </div>
