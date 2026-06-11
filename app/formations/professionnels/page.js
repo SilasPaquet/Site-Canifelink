@@ -11,7 +11,7 @@ export const metadata = {
     "formation éleveur comportement chien chat cheval",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/formations/professionnels",
+    canonical: "/formations/professionnels",
   },
 };
 

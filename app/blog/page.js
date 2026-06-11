@@ -12,7 +12,7 @@ export const metadata = {
     "comportement chat conseils",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/blog",
+    canonical: "/blog",
   },
 };
 

@@ -15,7 +15,7 @@ export const metadata = {
     "comportementaliste chat Marcy-l'Étoile",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/comportementaliste-chat-rhone",
+    canonical: "/comportementaliste-chat-rhone",
   },
 };
 

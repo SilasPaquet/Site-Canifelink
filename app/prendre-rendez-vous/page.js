@@ -10,7 +10,7 @@ export const metadata = {
     "rendez-vous comportementaliste chien chat cheval",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/prendre-rendez-vous",
+    canonical: "/prendre-rendez-vous",
   },
 };
 

@@ -6,10 +6,6 @@ import sql from "@/lib/db";
 
 const SECRET = new TextEncoder().encode(process.env.ADMIN_JWT_SECRET);
 
-export const metadata = {
-  robots: { index: false, follow: false },
-};
-
 export default async function AdminBlogPage() {
   // Vérification serveur (double sécurité en plus du middleware)
   const cookieStore = await cookies();

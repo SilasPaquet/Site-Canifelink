@@ -11,7 +11,7 @@ export const metadata = {
     "formation éthologie animale",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/formations/particuliers",
+    canonical: "/formations/particuliers",
   },
 };
 

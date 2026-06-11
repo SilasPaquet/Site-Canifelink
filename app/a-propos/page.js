@@ -11,7 +11,7 @@ export const metadata = {
     "à propos CANIFELINK comportementaliste",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/a-propos",
+    canonical: "/a-propos",
   },
 };
 

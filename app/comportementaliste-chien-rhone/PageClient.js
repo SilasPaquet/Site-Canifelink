@@ -13,7 +13,7 @@ const SERVICE_JSON_LD = JSON.stringify({
   provider: {
     "@type": "LocalBusiness",
     name: "CANIFELINK",
-    url: "https://www.canifelink.fr",
+    url: "https://www.canifelink-comportementaliste.com",
   },
   areaServed: [
     { "@type": "AdministrativeArea", name: "Rhône" },

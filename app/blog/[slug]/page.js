@@ -5,7 +5,11 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const [post] = await sql`SELECT title, excerpt FROM blog_posts WHERE slug = ${slug} LIMIT 1`;
   if (!post) return {};
-  return { title: post.title, description: post.excerpt };
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: { canonical: `/blog/${slug}` },
+  };
 }
 
 export default async function ArticlePage({ params }) {

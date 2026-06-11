@@ -3,7 +3,10 @@ import NavClient from "./components/NavClient";
 import Footer from "./components/Footer";
 import FloatingUI from "./components/FloatingUI";
 
+const SITE_URL = "https://www.canifelink-comportementaliste.com";
+
 export const metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Comportementaliste Chien Chat Cheval Lyon Rhône | CANIFELINK",
     template: "%s | CANIFELINK",
@@ -32,12 +35,12 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://www.canifelink.fr",
+    url: "/",
     siteName: "CANIFELINK",
     title: "Comportementaliste Chien Chat Cheval Lyon | CANIFELINK",
     description:
       "Comprenez votre animal grâce à l'éthologie. Comportementaliste certifiée chien, chat et cheval à Lyon (69) et en visio dans toute la francophonie.",
-    images: [{ url: "https://www.canifelink.fr/og-image.jpg" }],
+    images: [{ url: "/og-image.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -46,7 +49,7 @@ export const metadata = {
       "Comportementaliste certifiée chien, chat et cheval · Lyon & distanciel · Méthodes éthologiques · Suivi 30j inclus",
   },
   alternates: {
-    canonical: "https://www.canifelink.fr/",
+    canonical: "/",
   },
 };
 
@@ -56,10 +59,10 @@ const JSON_LD = `
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.canifelink.fr/#business",
+      "@id": "https://www.canifelink-comportementaliste.com/#business",
       "name": "CANIFELINK",
       "description": "Comportementaliste certifiée chien, chat et cheval à Lyon (Rhône) et en visio dans toute la francophonie. Méthodes éthologiques et bienveillantes.",
-      "url": "https://www.canifelink.fr",
+      "url": "https://www.canifelink-comportementaliste.com",
       "telephone": "+33-X-XX-XX-XX-XX",
       "email": "contact@canifelink.fr",
       "address": {
@@ -109,7 +112,7 @@ const JSON_LD = `
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.canifelink.fr/#faq",
+      "@id": "https://www.canifelink-comportementaliste.com/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -155,7 +158,7 @@ const JSON_LD = `
     },
     {
       "@type": "BreadcrumbList",
-      "itemListElement": [{"@type": "ListItem","position": 1,"name": "Accueil","item": "https://www.canifelink.fr/"}]
+      "itemListElement": [{"@type": "ListItem","position": 1,"name": "Accueil","item": "https://www.canifelink-comportementaliste.com/"}]
     }
   ]
 }

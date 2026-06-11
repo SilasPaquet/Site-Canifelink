@@ -15,7 +15,7 @@ export const metadata = {
     "éthologie équine Marcy-l'Étoile",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/comportementaliste-cheval-rhone",
+    canonical: "/comportementaliste-cheval-rhone",
   },
 };
 

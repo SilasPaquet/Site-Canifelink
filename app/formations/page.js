@@ -12,7 +12,7 @@ export const metadata = {
     "formation refuge vétérinaire comportement",
   ],
   alternates: {
-    canonical: "https://www.canifelink.fr/formations",
+    canonical: "/formations",
   },
 };
 

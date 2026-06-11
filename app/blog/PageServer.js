@@ -103,7 +103,7 @@ export default async function BlogServer() {
           <p style={{ fontSize: "16px", lineHeight: 1.75, opacity: 0.85, marginBottom: "28px", maxWidth: "500px", margin: "0 auto 28px" }}>
             {c.guide.text}
           </p>
-          <a href="/contact" className="btn-white" style={{ display: "inline-block" }}>
+          <a href="/prendre-rendez-vous" className="btn-white" style={{ display: "inline-block" }}>
             {c.guide.cta}
           </a>
           <p style={{ fontSize: "12px", opacity: 0.6, marginTop: "12px" }}>{c.guide.meta}</p>
